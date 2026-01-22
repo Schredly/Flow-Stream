@@ -89,7 +89,7 @@ const projects = [
 ];
 
 const companyLogos = [
-  "Netflix", "Apple", "NVIDIA", "NBCUniversal", "Stripe", "American Express", "Boeing", "Microsoft", "Amazon", "Google"
+  "Netflix", "Apple", "NVIDIA", "Disney", "Intel", "American Express", "Boeing", "Microsoft", "Amazon", "Google"
 ];
 
 export default function Home() {
