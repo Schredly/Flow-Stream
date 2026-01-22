@@ -144,7 +144,7 @@ export default function Home() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="mailto:eric.schroeder@example.com"
+              href="mailto:ericschrdr@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
               data-testid="link-header-email"
             >
@@ -221,7 +221,7 @@ export default function Home() {
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="rounded-full px-8" data-testid="link-email">
-                  <a href="mailto:eric.schroeder@example.com">
+                  <a href="mailto:ericschrdr@gmail.com">
                     <Mail className="mr-2 h-5 w-5" />
                     Email Me
                   </a>
@@ -462,9 +462,9 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <Button asChild size="lg" data-testid="button-contact-email">
-                <a href="mailto:eric.schroeder@example.com">
+                <a href="mailto:ericschrdr@gmail.com">
                   <Mail className="mr-2 h-5 w-5" />
-                  eric.schroeder@example.com
+                  ericschrdr@gmail.com
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" data-testid="button-contact-linkedin">
