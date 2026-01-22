@@ -111,8 +111,8 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <div className="fixed top-0 left-0 right-0 h-1 bg-primary z-[10000]" />
       <header
-        className={`fixed top-1 left-0 right-0 z-[9999] transition-all duration-300 ${
-          isScrolled ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm" : "bg-transparent"
+        className={`fixed top-1 left-0 right-0 z-[9999] transition-all duration-300 border-b border-white/10 ${
+          isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm" : "bg-transparent"
         }`}
       >
         <nav className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between gap-4">
