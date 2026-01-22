@@ -260,11 +260,11 @@ export default function Home() {
               </Card>
               
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-full" />
                 <img
                   src={profilePhoto}
                   alt="Eric Schroeder"
-                  className="relative w-64 h-80 md:w-80 md:h-96 object-cover object-top rounded-2xl shadow-2xl border-2 border-primary/20"
+                  className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full shadow-2xl border-2 border-primary/20"
                   data-testid="img-profile"
                 />
               </div>
