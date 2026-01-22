@@ -1,0 +1,206 @@
+Perfect — this is exactly the right level of detail. Below is a **clean, fully re-written version of those same sections**, **mapped 1:1 to the Ita Sigler site**, but **rewritten with *your* story, tone, and seniority**. This is ready to paste into your rebranded site and tweak lightly.
+
+I’ve kept the structure identical so it drops straight into your Replit build.
+
+---
+
+# Eric Schroeder
+
+## Technical GTM Leader at the Forefront of AI
+
+The technical barrier to building enterprise software is collapsing.
+
+I operate at the intersection of **product, engineering, and go-to-market**, bringing a builder’s mindset to enterprise GTM leadership. I help organizations translate emerging technologies—especially AI and agentic systems—into **trusted, scalable, revenue-driving solutions**.
+
+With 25+ years building, scaling, and selling enterprise platforms, I specialize in turning complex systems into **clear narratives, repeatable motions, and measurable outcomes**—from early incubation to $1B+ categories.
+
+**LinkedIn**
+**Email Me**
+
+---
+
+## Career & Personal Milestones
+
+*Key moments that reflect both professional growth and personal values.*
+
+### Husband & Father
+
+Grounded leadership starts at home. I value long-term thinking, responsibility, and building systems that last.
+
+### Category Creation at Scale
+
+Helped scale ServiceNow from an early IT ticketing product into a global ITSM and Enterprise Service Management leader, contributing to a $1B+ category.
+
+### Product Incubation & 0→1 Leadership
+
+Led incubation initiatives (NowX) launching multiple new products, frameworks, and AI capabilities—bridging early experimentation with enterprise-grade execution.
+
+### Bridging Product, GTM & Enterprise Reality
+
+Consistently translate deep technical capability into executive-level value stories, adoption playbooks, and trusted deployment patterns.
+
+### AI & Agentic Systems Leadership
+
+Advanced enterprise-safe AI and agentic workflow strategies with a focus on governance, risk, and real-world adoption—not demos in isolation.
+
+### Advisor & Operator
+
+Partner with founders and leadership teams to operationalize innovation, sharpen positioning, and accelerate GTM execution through Cogent West.
+
+---
+
+## Operating Beliefs
+
+*(formerly “Guiding Principles” — intentionally hipper)*
+
+### Lead with Empathy
+
+Great outcomes start with trust. I assume positive intent, listen deeply, and aim to understand context before pushing solutions.
+
+### Build for Adoption, Not Demos
+
+Enterprise success isn’t about what’s possible—it’s about what can be trusted, governed, and repeated at scale.
+
+### Systems > Features
+
+Lasting impact comes from strong systems, clear narratives, and aligned incentives—not isolated features.
+
+### Grit Beats Brilliance
+
+Progress compounds. I focus on steady execution, learning fast from failures, and getting 1% better every day.
+
+### Feedback Is a Force Multiplier
+
+Candid feedback—given and received—accelerates growth when paired with action and accountability.
+
+### Speed With Intent
+
+Strategy sets direction; execution creates results. Small, focused teams shipping quickly within clear frameworks win—especially with AI-native leverage.
+
+---
+
+## Professional Experience
+
+*Trusted by leading enterprise organizations*
+
+(Netflix · Apple · NVIDIA · NBCUniversal · Stripe · American Express · Boeing · Microsoft · Amazon · Google)
+
+---
+
+### VP — Sales Engineering & Post-Sales
+
+**Standard Template Labs (Copy.ai)**
+*2025 – Present*
+
+* Own the full customer lifecycle across enterprise sales, implementation, and post-sales adoption for an AI-native platform.
+* Drive value-based sales motions and executive-level POVs that connect agentic workflows to measurable business outcomes.
+* Partner closely with Product and Engineering to influence roadmap based on real enterprise adoption signals.
+* Establish scalable post-sales playbooks that balance speed, trust, and governance for enterprise customers.
+
+---
+
+### VP of Product Management & AI Agent Safety (NowX)
+
+**ServiceNow**
+*2006 – 2025*
+
+* Helped scale ServiceNow from early ITSM roots into a global enterprise platform exceeding $1B in revenue.
+* Led NowX incubation efforts launching 14 products across new workflows, AI, and platform capabilities.
+* Advanced enterprise AI strategy, including early work on agentic systems, governance, and safety.
+* Partnered cross-functionally across product, GTM, and exec leadership to create category-defining outcomes.
+
+---
+
+### Advisor / Operator
+
+**Cogent West**
+*2025 – Present*
+
+* Advise founders and leadership teams on enterprise AI strategy, GTM positioning, and operating models.
+* Build enterprise narratives, demos, and adoption frameworks that accelerate trust and buying confidence.
+* Support early-stage and growth-stage teams in turning innovation into durable market traction.
+
+---
+
+## Skills & Expertise
+
+### Enterprise GTM & Leadership
+
+* Value-Based Selling & Executive POVs
+* Enterprise Sales Engineering
+* Customer Adoption & Expansion
+* Stakeholder Alignment & Exec Communication
+* Team Leadership & Coaching
+
+### AI & Platform Strategy
+
+* Agentic Workflow Design
+* Enterprise AI Governance & Safety
+* LLM Strategy & Integration
+* AI-Native Product Design
+
+### Product & Systems Thinking
+
+* Product Incubation (0→1 → Scale)
+* Platform Strategy & Architecture
+* Change Management & Adoption Models
+* Cross-Functional Operating Systems
+
+---
+
+## Portfolio & Selected Work
+
+### Enterprise Vibe — GTM Narrative & Demo System
+
+**GTM Strategy · AI Workflows · Enterprise Positioning**
+Developed a narrative and demo framework showing how vibe-coding plus reusable templates can outperform legacy enterprise stacks with faster time-to-value.
+
+---
+
+### AI-Native ITSM & Workflow Prototypes
+
+**Agentic Systems · Governance · Change Management**
+Designed enterprise-grade agentic workflows aligned to real change control, risk, and compliance needs.
+
+---
+
+### Workflow & Agent Builder Experiments
+
+**Internal Tools · AI Automation · Rapid Prototyping**
+Built multiple prototypes across IT, marketing, and reporting to explore repeatable agent-driven workflows.
+
+---
+
+### Enterprise POVs & Executive Demos
+
+**Sales Enablement · Strategic Storytelling**
+Created executive-ready demos and POVs that translate complex platforms into clear business impact narratives.
+
+---
+
+## Get In Touch
+
+Ready to explore how AI-native systems, strong GTM execution, and trusted adoption frameworks can drive real enterprise outcomes?
+
+Let’s connect.
+
+**Email**
+[ericschrdr@gmail.com](mailto:ericschrdr@gmail.com)
+
+**LinkedIn**
+linkedin.com/in/ericschroeder
+
+**Based in**
+San Diego, CA
+
+---
+
+### Next (optional, but powerful)
+
+If you want, I can:
+
+* Compress this into a **60-second executive summary** (to mirror Ita’s toggle)
+* Rewrite this to sound **more minimal / more bold / more founder-adjacent**
+* Convert this directly into a **`content.js` file** for your Replit app
+
+Just tell me the next move.

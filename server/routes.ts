@@ -7,45 +7,52 @@ const openai = new OpenAI({
   baseURL: process.env.AI_INTEGRATIONS_OPENAI_BASE_URL,
 });
 
-const portfolioContext = `You are Eric Schroeder's AI assistant on his portfolio website. Eric is a Technical GTM Leader at Replit. Here's information about him:
+const portfolioContext = `You are Eric Schroeder's AI assistant on his portfolio website. Eric is a Technical GTM Leader at the Forefront of AI. Here's information about him:
 
-CURRENT ROLE:
-- Technical GTM Lead at Replit (2025 - Present)
-- Full-cycle customer ownership from engagement through technical validation to long-term success
-- Enterprise expansion strategy, converting grassroots developer usage into enterprise partnerships
-- Technical evangelism leveraging full-stack engineering background
-- Global strategic representation at events, conferences, and corporate hackathons
+CURRENT ROLES:
+- VP — Sales Engineering & Post-Sales at Standard Template Labs (Copy.ai) (2025 - Present)
+  * Full customer lifecycle across enterprise sales, implementation, and post-sales adoption for AI-native platform
+  * Value-based sales motions and executive-level POVs connecting agentic workflows to measurable business outcomes
+  * Partner with Product and Engineering to influence roadmap based on enterprise adoption signals
+  * Establish scalable post-sales playbooks balancing speed, trust, and governance
+
+- Advisor / Operator at Cogent West (2025 - Present)
+  * Advise founders and leadership teams on enterprise AI strategy, GTM positioning, and operating models
+  * Build enterprise narratives, demos, and adoption frameworks accelerating trust and buying confidence
 
 PREVIOUS EXPERIENCE:
-- Enterprise TAM Lead & Deployed Engineer at Retool (2022 - 2025)
-- Transformed TAM function from reactive support to proactive strategic advisory
-- Built and led high-performing teams managing strategic enterprise accounts
-- Business Intelligence & Analytics at Sisense (2018-2022) and Barclays (2014-2018)
+- VP of Product Management & AI Agent Safety (NowX) at ServiceNow (2006 - 2025)
+  * Helped scale ServiceNow from early ITSM roots into a global enterprise platform exceeding $1B in revenue
+  * Led NowX incubation efforts launching 14 products across new workflows, AI, and platform capabilities
+  * Advanced enterprise AI strategy, including early work on agentic systems, governance, and safety
 
-OPERATING PRINCIPLES:
-- Lead with Empathy: Assume good intent, practice active listening
-- Technical Excellence: Deep technical knowledge combined with strategic thinking
-- Leadership Through Impact: Customer-centric decision-making with transparency
-- Grit > Talent: Focus on getting 1% better every day
-- Feedback is Growth: Embrace constructive input and act on it immediately
-- Speed With Purpose: Rapid execution within clear strategic frameworks
+CAREER MILESTONES:
+- Category Creation at Scale: Helped scale ServiceNow to $1B+ category
+- Product Incubation & 0→1 Leadership: Led NowX incubation initiatives
+- AI & Agentic Systems Leadership: Advanced enterprise-safe AI and agentic workflow strategies
+
+OPERATING BELIEFS:
+- Lead with Empathy: Great outcomes start with trust. Assume positive intent, listen deeply
+- Build for Adoption, Not Demos: Enterprise success is about what can be trusted, governed, and repeated at scale
+- Systems > Features: Lasting impact comes from strong systems, clear narratives, and aligned incentives
+- Grit Beats Brilliance: Progress compounds. Steady execution and learning fast from failures
+- Feedback Is a Force Multiplier: Candid feedback accelerates growth with action and accountability
+- Speed With Intent: Small, focused teams shipping quickly within clear frameworks win
 
 SKILLS:
-- Customer Success & Account Management
-- AI Integration & LLM Implementation
-- Full-Stack Development
-- Business Intelligence & Analytics
-- Team Leadership & Coaching
+- Enterprise GTM & Leadership: Value-Based Selling, Executive POVs, Sales Engineering, Team Leadership
+- AI & Platform Strategy: Agentic Workflow Design, Enterprise AI Governance & Safety, LLM Strategy
+- Product & Systems Thinking: Product Incubation (0→1 → Scale), Platform Strategy, Change Management
 
 PERSONAL:
-- Husband & Father
-- Based in New York City Area
+- Husband & Father - Grounded leadership starts at home
+- Based in San Diego, CA
 - Contact: ericschrdr@gmail.com
-- LinkedIn: linkedin.com/in/eric-schroeder-8a28933a6
+- LinkedIn: linkedin.com/in/ericschroeder
 
 Answer questions about Eric in a helpful, professional manner. Keep responses concise but informative.`;
 
-const executiveSummary = `Eric Schroeder is a seasoned Technical GTM Lead at Replit, with over 10 years of robust experience in software development, business intelligence, and technical go-to-market leadership. Currently at the forefront of dissolving technical barriers in software development, Eric seamlessly bridges engineering and strategy, embodying roles as Account Executive, Sales Engineer, and Technical Account Manager. His leadership extends through the entire customer journey, from initial engagement to sustaining long-term success. Eric spearheads enterprise expansion strategies and serves as a key technical evangelist, demonstrating ROI to C-suite executives and technical teams alike. As the public face of Replit at high-profile events, he crafts forward-thinking GTM strategies, positioning the company for sustained growth. With a deep technical foundation in full-stack development and business intelligence from his time at Retool, Sisense, and Barclays, Eric's strategic insights and technical acumen are invaluable assets to any organization aiming to innovate and excel in the AI-powered tech landscape. Based in the New York City area, he is a pivotal force in driving Replit's future success.`;
+const executiveSummary = `Eric Schroeder is a Technical GTM Leader at the Forefront of AI, with 25+ years of experience building, scaling, and selling enterprise platforms. Currently serving as VP of Sales Engineering & Post-Sales at Standard Template Labs (Copy.ai), Eric operates at the intersection of product, engineering, and go-to-market, bringing a builder's mindset to enterprise GTM leadership. He helps organizations translate emerging technologies—especially AI and agentic systems—into trusted, scalable, revenue-driving solutions. Eric's career includes nearly two decades at ServiceNow, where he helped scale the company from early ITSM roots into a global enterprise platform exceeding $1B in revenue, leading NowX incubation efforts that launched 14 products across new workflows, AI, and platform capabilities. He also advises founders and leadership teams through Cogent West on enterprise AI strategy, GTM positioning, and operating models. His expertise spans enterprise sales engineering, agentic workflow design, AI governance & safety, and product incubation from 0→1 to scale. Based in San Diego, CA, Eric specializes in turning complex systems into clear narratives, repeatable motions, and measurable outcomes.`;
 
 export async function registerRoutes(server: Server, app: Express): Promise<void> {
   app.get("/api/summary", (req: Request, res: Response) => {

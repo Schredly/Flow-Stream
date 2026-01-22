@@ -14,86 +14,82 @@ const navLinks = [
 ];
 
 const milestones = [
-  { icon: Heart, title: "Husband & Father" },
-  { icon: Building2, title: "Enterprise TAM Scaler", description: "Building and scaling Enterprise TAM functions, transforming from reactive service to strategic, revenue-driving teams" },
-  { icon: Lightbulb, title: "Bridging Tech & Business", description: "Leveraging deep background in full-stack development and DevOps to bridge complex technology and strategic business value" },
-  { icon: Users, title: "Leadership & Mentorship", description: "Leading and mentoring high-performing technical teams, focusing on professional growth and high customer satisfaction" },
-  { icon: Target, title: "Executive Partnership", description: "Partnering directly with executive leadership to solve critical adoption bottlenecks and develop scalable frameworks" },
-  { icon: GraduationCap, title: "Data-Driven Foundations", description: "Strong educational foundation in data analysis, engineering, and strategic business operations" },
+  { icon: Heart, title: "Husband & Father", description: "Grounded leadership starts at home. I value long-term thinking, responsibility, and building systems that last." },
+  { icon: Building2, title: "Category Creation at Scale", description: "Helped scale ServiceNow from an early IT ticketing product into a global ITSM and Enterprise Service Management leader, contributing to a $1B+ category." },
+  { icon: Lightbulb, title: "Product Incubation & 0→1 Leadership", description: "Led incubation initiatives (NowX) launching multiple new products, frameworks, and AI capabilities—bridging early experimentation with enterprise-grade execution." },
+  { icon: Users, title: "Bridging Product, GTM & Enterprise Reality", description: "Consistently translate deep technical capability into executive-level value stories, adoption playbooks, and trusted deployment patterns." },
+  { icon: Target, title: "AI & Agentic Systems Leadership", description: "Advanced enterprise-safe AI and agentic workflow strategies with a focus on governance, risk, and real-world adoption—not demos in isolation." },
+  { icon: GraduationCap, title: "Advisor & Operator", description: "Partner with founders and leadership teams to operationalize innovation, sharpen positioning, and accelerate GTM execution through Cogent West." },
 ];
 
 const principles = [
-  { title: "Lead with Empathy", description: "Always try to assume good intent. Practice active listening to truly understand and empower people around you.", icon: Heart },
-  { title: "Technical Excellence", description: "Deep technical knowledge combined with strategic thinking creates the most effective leaders. Understanding implementation details enables better decision-making.", icon: Lightbulb },
-  { title: "Leadership Through Impact", description: "Committed to developing others through structured coaching. Customer-centric decision-making with transparency, alignment, and accountability.", icon: Users },
-  { title: "Grit > Talent", description: "Consistent effort, perseverance through challenges, and learning from failures create lasting impact. Focus on getting 1% better every day.", icon: Target },
-  { title: "Feedback is Growth", description: "I believe in the importance of receiving and giving candid feedback, then applying it quickly. Growth happens fastest when we embrace constructive input.", icon: MessageSquare },
-  { title: "Speed With Purpose", description: "Strategy guides direction, but speed drives results. I believe in rapid execution within clear strategic frameworks. AI-native approaches accelerate impact exponentially.", icon: Rocket },
+  { title: "Lead with Empathy", description: "Great outcomes start with trust. I assume positive intent, listen deeply, and aim to understand context before pushing solutions.", icon: Heart },
+  { title: "Build for Adoption, Not Demos", description: "Enterprise success isn't about what's possible—it's about what can be trusted, governed, and repeated at scale.", icon: Lightbulb },
+  { title: "Systems > Features", description: "Lasting impact comes from strong systems, clear narratives, and aligned incentives—not isolated features.", icon: Users },
+  { title: "Grit Beats Brilliance", description: "Progress compounds. I focus on steady execution, learning fast from failures, and getting 1% better every day.", icon: Target },
+  { title: "Feedback Is a Force Multiplier", description: "Candid feedback—given and received—accelerates growth when paired with action and accountability.", icon: MessageSquare },
+  { title: "Speed With Intent", description: "Strategy sets direction; execution creates results. Small, focused teams shipping quickly within clear frameworks win—especially with AI-native leverage.", icon: Rocket },
 ];
 
 const experiences = [
   {
-    title: "Technical GTM Lead",
-    company: "Replit",
+    title: "VP — Sales Engineering & Post-Sales",
+    company: "Standard Template Labs (Copy.ai)",
     period: "2025 - Present",
     responsibilities: [
-      "Full-Cycle Ownership: Managing complete customer journey from initial engagement through technical validation to long-term success",
-      "Enterprise Expansion Strategy: Leading complex sales motions to convert grassroots developer usage into enterprise partnerships",
-      "Technical Evangelism: Leveraging full-stack engineering background to build competitive demos and prove technical ROI",
-      "Global Strategic Representation: Serving as public face at events, conferences, and large-scale corporate hackathons",
-      "GTM Strategy: Architecting the strategy for future GTM motion and systems",
+      "Own the full customer lifecycle across enterprise sales, implementation, and post-sales adoption for an AI-native platform.",
+      "Drive value-based sales motions and executive-level POVs that connect agentic workflows to measurable business outcomes.",
+      "Partner closely with Product and Engineering to influence roadmap based on real enterprise adoption signals.",
+      "Establish scalable post-sales playbooks that balance speed, trust, and governance for enterprise customers.",
     ],
   },
   {
-    title: "Enterprise TAM Lead & Deployed Engineer",
-    company: "Retool",
-    period: "2022 - 2025",
+    title: "VP of Product Management & AI Agent Safety (NowX)",
+    company: "ServiceNow",
+    period: "2006 - 2025",
     responsibilities: [
-      "Transformed and repositioned TAM function from reactive technical support to proactive strategic customer advisory",
-      "Built and led high-performing teams managing most strategic enterprise accounts with high retention and expansion",
-      "Delivered tailored technical solutions using full-stack development and DevOps skills",
-      "Enabled global enterprises to leverage platform effectively for AI-driven innovation",
+      "Helped scale ServiceNow from early ITSM roots into a global enterprise platform exceeding $1B in revenue.",
+      "Led NowX incubation efforts launching 14 products across new workflows, AI, and platform capabilities.",
+      "Advanced enterprise AI strategy, including early work on agentic systems, governance, and safety.",
+      "Partnered cross-functionally across product, GTM, and exec leadership to create category-defining outcomes.",
     ],
   },
   {
-    title: "Business Intelligence & Analytics",
-    company: "Sisense & Barclays",
-    period: "2014 - 2022",
+    title: "Advisor / Operator",
+    company: "Cogent West",
+    period: "2025 - Present",
     responsibilities: [
-      "Led strategic BI implementation projects for enterprise clients across Retail, Financial, and Healthcare sectors",
-      "Managed team of consultants working on complex data visualization solutions",
-      "Developed sophisticated BI solutions supporting millions of daily financial transactions",
-      "Optimized SQL performance and created efficient data migration tools",
+      "Advise founders and leadership teams on enterprise AI strategy, GTM positioning, and operating models.",
+      "Build enterprise narratives, demos, and adoption frameworks that accelerate trust and buying confidence.",
+      "Support early-stage and growth-stage teams in turning innovation into durable market traction.",
     ],
   },
 ];
 
 const skills = [
   {
-    category: "Customer Success & Account Management",
-    items: ["Enterprise Technical Account Management", "Strategic Customer Success", "Revenue Growth & Retention", "Executive Stakeholder Management", "Cross-functional Collaboration", "Team Leadership & Coaching"],
+    category: "Enterprise GTM & Leadership",
+    items: ["Value-Based Selling & Executive POVs", "Enterprise Sales Engineering", "Customer Adoption & Expansion", "Stakeholder Alignment & Exec Communication", "Team Leadership & Coaching"],
   },
   {
-    category: "AI & Development Technologies",
-    items: ["AI Integration & Automation", "LLM Implementation & Strategy", "Full-Stack Development", "API Development & Integration", "Custom Application Development", "Workflow Automation Design"],
+    category: "AI & Platform Strategy",
+    items: ["Agentic Workflow Design", "Enterprise AI Governance & Safety", "LLM Strategy & Integration", "AI-Native Product Design"],
   },
   {
-    category: "Data & Analytics",
-    items: ["Business Intelligence & Analytics", "Data Visualization & Dashboards", "ETL Process Design", "SQL & Database Optimization", "Predictive Analytics & Forecasting", "Customer Data Analysis"],
+    category: "Product & Systems Thinking",
+    items: ["Product Incubation (0→1 → Scale)", "Platform Strategy & Architecture", "Change Management & Adoption Models", "Cross-Functional Operating Systems"],
   },
 ];
 
 const projects = [
-  { title: "AI-Powered Customer 360 Dashboards", tags: ["AI Integration", "Data Visualization", "Customer Insights"], description: "Built centralized dashboards combining multiple data sources with AI summarization and key insight surfacing for fragmented customer data." },
-  { title: "Human-in-the-Loop AI Workflows", tags: ["LLM Integration", "Workflow Automation", "Risk Management"], description: "Integrated platforms with LLMs to pre-process and suggest actions, routed to humans for final decisions in high-risk business processes." },
-  { title: "Automated Case Triage with Summarization", tags: ["AI Summarization", "Process Automation", "Efficiency"], description: "Used automation tools to present auto-summarized case info and AI-prioritized flags in triage view for time-consuming case reviews." },
-  { title: "Custom CRM & Internal Management Tools", tags: ["Custom CRM", "Internal Tools", "Process Optimization"], description: "Designed fully custom CRM interfaces tailored to internal processes, including note-taking, task assignment, and ticket triage." },
-  { title: "Self-Service Admin Portals with Guardrails", tags: ["Self-Service", "Admin Tools", "Engineering Efficiency"], description: "Delivered modular internal tools with permissioned access and business logic guardrails for engineering teams." },
-  { title: "Sales Forecasting Insights with LLMs", tags: ["LLM Integration", "Sales Intelligence", "Executive Insights"], description: "Built forecasting tool with embedded LLMs to generate natural-language summaries and risk indicators for executives." },
+  { title: "Enterprise Vibe — GTM Narrative & Demo System", tags: ["GTM Strategy", "AI Workflows", "Enterprise Positioning"], description: "Developed a narrative and demo framework showing how vibe-coding plus reusable templates can outperform legacy enterprise stacks with faster time-to-value." },
+  { title: "AI-Native ITSM & Workflow Prototypes", tags: ["Agentic Systems", "Governance", "Change Management"], description: "Designed enterprise-grade agentic workflows aligned to real change control, risk, and compliance needs." },
+  { title: "Workflow & Agent Builder Experiments", tags: ["Internal Tools", "AI Automation", "Rapid Prototyping"], description: "Built multiple prototypes across IT, marketing, and reporting to explore repeatable agent-driven workflows." },
+  { title: "Enterprise POVs & Executive Demos", tags: ["Sales Enablement", "Strategic Storytelling"], description: "Created executive-ready demos and POVs that translate complex platforms into clear business impact narratives." },
 ];
 
 const companyLogos = [
-  "Netflix", "Apple", "NVIDIA", "NBCUniversal", "Stripe", "American Express", "Boeing", "OpenAI"
+  "Netflix", "Apple", "NVIDIA", "NBCUniversal", "Stripe", "American Express", "Boeing", "Microsoft", "Amazon", "Google"
 ];
 
 export default function Home() {
@@ -208,11 +204,11 @@ export default function Home() {
               </h1>
               
               <p className="text-xl md:text-2xl text-foreground mb-6 font-semibold animate-fade-in-up opacity-0 animation-delay-200">
-                The technical barrier to building software has vanished.
+                The technical barrier to building enterprise software is collapsing.
               </p>
               
               <p className="text-base md:text-lg text-muted-foreground mb-10 leading-relaxed max-w-xl animate-fade-in-up opacity-0 animation-delay-300">
-                I sit at the intersection of engineering and strategy, bringing a software engineer's perspective to GTM leadership. I help knowledge workers and domain experts build complex, innovative applications using only natural language—empowering organizations to build the future with AI.
+                I operate at the intersection of <strong className="text-foreground">product, engineering, and go-to-market</strong>, bringing a builder's mindset to enterprise GTM leadership. I help organizations translate emerging technologies—especially AI and agentic systems—into <strong className="text-foreground">trusted, scalable, revenue-driving solutions</strong>. With 25+ years building, scaling, and selling enterprise platforms, I specialize in turning complex systems into clear narratives, repeatable motions, and measurable outcomes—from early incubation to $1B+ categories.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 animation-delay-400">
@@ -283,7 +279,7 @@ export default function Home() {
               Career & Personal Milestones
             </h2>
             <p className="text-muted-foreground text-lg">
-              Key achievements that showcase professional growth and personal values.
+              Key moments that reflect both professional growth and personal values.
             </p>
           </div>
           
@@ -459,7 +455,7 @@ export default function Home() {
               Get In Touch
             </h2>
             <p className="text-base text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              Ready to discuss how we can drive transformative business outcomes? Let's connect and explore opportunities for strategic partnership, AI-driven innovation, and enterprise growth.
+              Ready to explore how AI-native systems, strong GTM execution, and trusted adoption frameworks can drive real enterprise outcomes? Let's connect.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -479,7 +475,7 @@ export default function Home() {
             
             <div className="flex items-center justify-center gap-2 text-muted-foreground">
               <MapPin className="h-5 w-5" />
-              <span>Based in New York City Area</span>
+              <span>Based in San Diego, CA</span>
             </div>
           </Card>
         </div>
