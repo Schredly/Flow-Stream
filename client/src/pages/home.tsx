@@ -6,12 +6,10 @@ import { Linkedin, Mail, MapPin, Heart, Building2, GraduationCap, Users, Target,
 import profilePhoto from "@/assets/profile-photo.png";
 
 const navLinks = [
-  { href: "#milestones", label: "Milestones" },
-  { href: "#principles", label: "Principles" },
-  { href: "#experience", label: "Experience" },
-  { href: "#skills", label: "Skills" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "#principles", label: "VALUES" },
+  { href: "#experience", label: "EXPERIENCE" },
+  { href: "#projects", label: "PORTFOLIO" },
+  { href: "#skills", label: "SKILLS" },
 ];
 
 const milestones = [
@@ -116,22 +114,44 @@ export default function Home() {
           isScrolled ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm" : "bg-transparent"
         }`}
       >
-        <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
-          <a href="#" className="font-bold text-lg text-foreground" data-testid="link-logo">
-            ES
+        <nav className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between gap-4">
+          <a href="#" className="font-semibold text-xl text-foreground tracking-tight" data-testid="link-logo">
+            Eric Schroeder
           </a>
           
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-10">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors tracking-wide"
                 data-testid={`link-nav-${link.label.toLowerCase()}`}
               >
                 {link.label}
               </a>
             ))}
+          </div>
+
+          <div className="hidden md:flex items-center gap-4">
+            <a
+              href="https://www.linkedin.com/in/eric-schroeder"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+              data-testid="link-header-linkedin"
+            >
+              <Linkedin className="h-5 w-5" />
+            </a>
+            <a
+              href="mailto:eric.schroeder@example.com"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+              data-testid="link-header-email"
+            >
+              <Mail className="h-5 w-5" />
+            </a>
+            <Button asChild size="sm" className="ml-2 rounded-full px-5" data-testid="button-header-contact">
+              <a href="#contact">GET IN TOUCH</a>
+            </Button>
           </div>
 
           <Button
@@ -159,54 +179,96 @@ export default function Home() {
                   {link.label}
                 </a>
               ))}
+              <a
+                href="#contact"
+                className="block text-sm font-medium text-primary"
+                onClick={() => setMobileMenuOpen(false)}
+                data-testid="link-mobile-nav-contact"
+              >
+                GET IN TOUCH
+              </a>
             </div>
           </div>
         )}
       </header>
 
-      <section className="relative min-h-screen flex items-center justify-center px-6 py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10" />
-        <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }} />
+      <section className="relative min-h-screen flex items-center px-6 pt-32 pb-20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/10" />
+        <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
         
-        <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <div className="mb-8 animate-scale-in">
-            <div className="relative inline-block">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary/60 rounded-full blur-md opacity-30" />
-              <img
-                src={profilePhoto}
-                alt="Eric Schroeder"
-                className="relative w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-4 border-card shadow-2xl"
-                data-testid="img-profile"
-              />
+        <div className="relative z-10 max-w-7xl mx-auto w-full">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div className="order-2 lg:order-1">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-[1.1] animate-fade-in-up opacity-0 animation-delay-100" data-testid="text-hero-title">
+                Technical GTM Leader at the{" "}
+                <span className="text-primary">Forefront of AI</span>
+              </h1>
+              
+              <p className="text-xl md:text-2xl text-foreground mb-6 font-semibold animate-fade-in-up opacity-0 animation-delay-200">
+                The technical barrier to building software has vanished.
+              </p>
+              
+              <p className="text-base md:text-lg text-muted-foreground mb-10 leading-relaxed max-w-xl animate-fade-in-up opacity-0 animation-delay-300">
+                I sit at the intersection of engineering and strategy, bringing a software engineer's perspective to GTM leadership. I help knowledge workers and domain experts build complex, innovative applications using only natural language—empowering organizations to build the future with AI.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 animation-delay-400">
+                <Button asChild size="lg" className="rounded-full px-8" data-testid="link-linkedin">
+                  <a href="https://www.linkedin.com/in/eric-schroeder" target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="mr-2 h-5 w-5" />
+                    LinkedIn Profile
+                  </a>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="rounded-full px-8" data-testid="link-email">
+                  <a href="mailto:eric.schroeder@example.com">
+                    <Mail className="mr-2 h-5 w-5" />
+                    Email Me
+                  </a>
+                </Button>
+              </div>
             </div>
-          </div>
-          
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight animate-fade-in-up opacity-0 animation-delay-100" data-testid="text-hero-title">
-            Technical GTM Leader at the Forefront of AI
-          </h1>
-          
-          <p className="text-lg md:text-xl text-muted-foreground mb-4 font-medium animate-fade-in-up opacity-0 animation-delay-200">
-            The technical barrier to building software has vanished.
-          </p>
-          
-          <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed animate-fade-in-up opacity-0 animation-delay-300">
-            I sit at the intersection of engineering and strategy, bringing a software engineer's perspective to GTM leadership. I help knowledge workers and domain experts build complex, innovative applications using only natural language—empowering organizations to build the future with AI.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up opacity-0 animation-delay-400">
-            <Button asChild size="lg" data-testid="link-linkedin">
-              <a href="https://www.linkedin.com/in/eric-schroeder" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="mr-2 h-5 w-5" />
-                LinkedIn Profile
-              </a>
-            </Button>
-            <Button asChild variant="outline" size="lg" data-testid="link-email">
-              <a href="mailto:eric.schroeder@example.com">
-                <Mail className="mr-2 h-5 w-5" />
-                Email Me
-              </a>
-            </Button>
+            
+            <div className="order-1 lg:order-2 flex flex-col items-center lg:items-end animate-scale-in">
+              <Card className="mb-4 p-4 bg-card/80 backdrop-blur-sm border-primary/20 rounded-xl">
+                <div className="flex items-center gap-6 text-sm text-muted-foreground mb-3">
+                  <div className="flex items-center gap-2">
+                    <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="M12 6v6l4 2" />
+                    </svg>
+                    <span>~7 min read (230 wpm)</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <path d="M14 2v6h6" />
+                      <path d="M16 13H8" />
+                      <path d="M16 17H8" />
+                      <path d="M10 9H8" />
+                    </svg>
+                    <span>1,350 words</span>
+                  </div>
+                </div>
+                <Button size="sm" className="w-full rounded-lg" data-testid="button-summary">
+                  <svg className="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                    <path d="M2 17l10 5 10-5" />
+                    <path d="M2 12l10 5 10-5" />
+                  </svg>
+                  Get 60-Sec Summary
+                </Button>
+              </Card>
+              
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl" />
+                <img
+                  src={profilePhoto}
+                  alt="Eric Schroeder"
+                  className="relative w-64 h-80 md:w-80 md:h-96 object-cover object-top rounded-2xl shadow-2xl border-2 border-primary/20"
+                  data-testid="img-profile"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
