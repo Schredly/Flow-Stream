@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* LIGHT MODE */
+/* LIGHT MODE - Minimal Colors Palette */
 :root {
   --button-outline: rgba(0,0,0, .10);
   --badge-outline: rgba(0,0,0, .05);
@@ -14,67 +14,67 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
 
-  --background: 220 20% 97%;
+  --background: 228 35% 93%;
 
-  --foreground: 220 20% 10%;
+  --foreground: 231 13% 25%;
 
-  --border: 220 15% 88%;
+  --border: 261 30% 80%;
 
   --card: 0 0% 100%;
 
-  --card-foreground: 220 20% 10%;
+  --card-foreground: 231 13% 25%;
 
-  --card-border: 220 15% 90%;
+  --card-border: 261 30% 85%;
 
-  --sidebar: 220 20% 95%;
+  --sidebar: 228 35% 90%;
 
-  --sidebar-foreground: 220 20% 20%;
+  --sidebar-foreground: 231 13% 25%;
 
-  --sidebar-border: 220 15% 88%;
+  --sidebar-border: 261 30% 80%;
 
-  --sidebar-primary: 220 90% 50%;
+  --sidebar-primary: 270 40% 52%;
 
   --sidebar-primary-foreground: 0 0% 100%;
 
-  --sidebar-accent: 220 20% 90%;
+  --sidebar-accent: 261 71% 90%;
 
-  --sidebar-accent-foreground: 220 20% 20%;
+  --sidebar-accent-foreground: 231 13% 25%;
 
-  --sidebar-ring: 220 90% 50%;
+  --sidebar-ring: 270 40% 52%;
 
   --popover: 0 0% 100%;
 
-  --popover-foreground: 220 20% 10%;
+  --popover-foreground: 231 13% 25%;
 
-  --popover-border: 220 15% 88%;
+  --popover-border: 261 30% 80%;
 
-  --primary: 220 90% 50%;
+  --primary: 270 40% 52%;
 
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 220 15% 92%;
+  --secondary: 261 71% 90%;
 
-  --secondary-foreground: 220 20% 20%;
+  --secondary-foreground: 231 13% 25%;
 
-  --muted: 220 15% 94%;
+  --muted: 228 35% 90%;
 
-  --muted-foreground: 220 10% 45%;
+  --muted-foreground: 231 13% 45%;
 
-  --accent: 220 15% 92%;
+  --accent: 199 64% 85%;
 
-  --accent-foreground: 220 20% 20%;
+  --accent-foreground: 231 13% 25%;
 
   --destructive: 0 72% 51%;
 
   --destructive-foreground: 0 0% 100%;
 
-  --input: 220 15% 85%;
-  --ring: 220 90% 50%;
-  --chart-1: 220 90% 50%;
-  --chart-2: 180 70% 45%;
-  --chart-3: 280 70% 55%;
-  --chart-4: 35 90% 55%;
-  --chart-5: 340 75% 55%;
+  --input: 261 30% 82%;
+  --ring: 270 40% 52%;
+  --chart-1: 270 40% 52%;
+  --chart-2: 199 64% 55%;
+  --chart-3: 261 71% 65%;
+  --chart-4: 228 35% 60%;
+  --chart-5: 231 40% 45%;
 
   --font-sans: 'Roboto', sans-serif;
   --font-serif: Georgia, serif;
@@ -132,55 +132,55 @@
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
 
-  --background: 220 20% 8%;
+  --background: 231 13% 20%;
 
-  --foreground: 220 10% 95%;
+  --foreground: 228 35% 93%;
 
-  --border: 220 15% 18%;
+  --border: 231 13% 28%;
 
-  --card: 220 20% 12%;
+  --card: 231 13% 25%;
 
-  --card-foreground: 220 10% 95%;
+  --card-foreground: 228 35% 93%;
 
-  --card-border: 220 15% 20%;
+  --card-border: 231 13% 30%;
 
-  --sidebar: 220 20% 10%;
+  --sidebar: 231 13% 18%;
 
-  --sidebar-foreground: 220 10% 90%;
+  --sidebar-foreground: 228 35% 90%;
 
-  --sidebar-border: 220 15% 18%;
+  --sidebar-border: 231 13% 25%;
 
-  --sidebar-primary: 220 90% 55%;
+  --sidebar-primary: 270 40% 55%;
 
   --sidebar-primary-foreground: 0 0% 100%;
 
-  --sidebar-accent: 220 20% 16%;
+  --sidebar-accent: 270 30% 30%;
 
-  --sidebar-accent-foreground: 220 10% 90%;
+  --sidebar-accent-foreground: 228 35% 90%;
 
-  --sidebar-ring: 220 90% 55%;
+  --sidebar-ring: 270 40% 55%;
 
-  --popover: 220 20% 12%;
+  --popover: 231 13% 25%;
 
-  --popover-foreground: 220 10% 95%;
+  --popover-foreground: 228 35% 93%;
 
-  --popover-border: 220 15% 20%;
+  --popover-border: 231 13% 30%;
 
-  --primary: 220 90% 55%;
+  --primary: 270 40% 55%;
 
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 220 15% 18%;
+  --secondary: 231 13% 28%;
 
-  --secondary-foreground: 220 10% 90%;
+  --secondary-foreground: 228 35% 90%;
 
-  --muted: 220 15% 15%;
+  --muted: 231 13% 25%;
 
-  --muted-foreground: 220 10% 55%;
+  --muted-foreground: 228 20% 60%;
 
-  --accent: 220 15% 18%;
+  --accent: 199 64% 30%;
 
-  --accent-foreground: 220 10% 90%;
+  --accent-foreground: 228 35% 93%;
 
   --destructive: 0 72% 51%;
 
