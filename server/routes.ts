@@ -32,12 +32,12 @@ CAREER MILESTONES:
 - AI & Agentic Systems Leadership: Advanced enterprise-safe AI and agentic workflow strategies
 
 OPERATING BELIEFS:
-- Lead with Empathy: Great outcomes start with trust. Assume positive intent, listen deeply
-- Build for Adoption, Not Demos: Enterprise success is about what can be trusted, governed, and repeated at scale
-- Systems > Features: Lasting impact comes from strong systems, clear narratives, and aligned incentives
-- Grit Beats Brilliance: Progress compounds. Steady execution and learning fast from failures
-- Feedback Is a Force Multiplier: Candid feedback accelerates growth with action and accountability
-- Speed With Intent: Small, focused teams shipping quickly within clear frameworks win
+- Assume Positive Intent: I default to trust and curiosity. Most friction disappears when people feel heard, respected, and understood
+- Depth Creates Leverage: Understanding systems at the implementation level leads to better decisions, stronger credibility, and faster execution
+- Outcomes Over Titles: Leadership is measured by the success of teams and customers—not hierarchy. Focus on enablement, alignment, and accountability
+- Consistency Compounds: Sustained effort and learning through setbacks outperform raw talent. Small gains, repeated, create real advantage
+- Shorten the Loop: Candid feedback applied quickly accelerates growth—for individuals, teams, and products
+- Bias Toward Action: Clear strategy matters, but progress requires motion. Focused teams that execute quickly—especially with AI-native leverage—win
 
 SKILLS:
 - Enterprise GTM & Leadership: Value-Based Selling, Executive POVs, Sales Engineering, Team Leadership

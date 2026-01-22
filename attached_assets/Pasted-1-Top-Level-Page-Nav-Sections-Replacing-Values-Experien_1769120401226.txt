@@ -1,0 +1,112 @@
+1. Top-Level Page / Nav Sections
+(Replacing: Values · Experience · Portfolio · Skills · Get In Touch)
+Here are three cohesive naming systems. Pick one “system” and stick to it across the site.
+
+System A — Operator / Builder (my top recommendation for you)
+Original	New Header
+Values	How I Operate
+Experience	Where I’ve Built
+Portfolio	What I’ve Delivered
+Skills	Capabilities
+Get In Touch	Let’s Work Together
+Why this works for you:
+* Sounds like an operator, not a manifesto
+* Avoids moralizing language (“values”)
+* Matches your GTM + execution identity
+
+System B — Executive / Boardroom
+Original	New Header
+Values	Operating Philosophy
+Experience	Leadership Track Record
+Portfolio	Selected Outcomes
+Skills	Core Competencies
+Get In Touch	Connect
+Why this works:
+* Clean, serious, board-safe
+* Great if this site doubles as an exec bio
+
+System C — Modern / Minimal
+Original	New Header
+Values	The Lens
+Experience	The Path
+Portfolio	The Work
+Skills	The Toolkit
+Get In Touch	Contact
+Why this works:
+* Very modern
+* Slightly more brand-y
+* Works well with short sections and strong typography
+
+2. Reworked “Guiding Principles” → Belief Headers
+(No shared words with Sigler’s, same meaning)
+Below is a tight, cohesive set that fits your voice: pragmatic, senior, execution-first.
+
+1. Original: Lead with Empathy
+New Header: Assume Positive Intent
+Alt options:
+* Start With Context
+* People First, Always
+* Listen Before Solving
+Short description (rewritten): I default to trust and curiosity. Most friction disappears when people feel heard, respected, and understood.
+
+2. Original: Technical Excellence
+New Header: Depth Creates Leverage
+Alt options:
+* Credibility Comes From Craft
+* Know How It Works
+* Fluency Beats Abstraction
+Description: Understanding systems at the implementation level leads to better decisions, stronger credibility, and faster execution.
+
+3. Original: Leadership Through Impact
+New Header: Outcomes Over Titles
+Alt options:
+* Earned Leadership
+* Influence Through Results
+* Enable, Don’t Control
+Description: Leadership is measured by the success of teams and customers—not hierarchy. My focus is enablement, alignment, and accountability.
+
+4. Original: Grit > Talent
+New Header: Consistency Compounds
+Alt options:
+* Progress Beats Brilliance
+* Momentum Matters
+* Show Up Daily
+Description: Sustained effort and learning through setbacks outperform raw talent. Small gains, repeated, create real advantage.
+
+5. Original: Feedback Is Growth
+New Header: Shorten the Loop
+Alt options:
+* Learn in Real Time
+* Say It Early
+* Iterate Fast
+Description: Candid feedback applied quickly accelerates growth—for individuals, teams, and products.
+
+6. Original: Speed With Purpose
+New Header: Bias Toward Action
+Alt options:
+* Direction + Velocity
+* Ship With Intent
+* Execution Wins
+Description: Clear strategy matters, but progress requires motion. Focused teams that execute quickly—especially with AI-native leverage—win.
+
+3. Recommended Final Set (if I were shipping this)
+Nav / Sections
+* How I Operate
+* Where I’ve Built
+* What I’ve Delivered
+* Capabilities
+* Let’s Work Together
+Principles
+1. Assume Positive Intent
+2. Depth Creates Leverage
+3. Outcomes Over Titles
+4. Consistency Compounds
+5. Shorten the Loop
+6. Bias Toward Action
+This set:
+* Uses zero overlapping words with Sigler
+* Feels authentic to your background
+* Reads cleanly to enterprise, founders, and boards
+* Will age well (not trend-chasing)
+
+

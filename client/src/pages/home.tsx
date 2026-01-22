@@ -7,10 +7,10 @@ import profilePhoto from "@/assets/profile-photo.png";
 import { AISummaryModal } from "@/components/ai-summary-modal";
 
 const navLinks = [
-  { href: "#principles", label: "VALUES" },
-  { href: "#experience", label: "EXPERIENCE" },
-  { href: "#projects", label: "PORTFOLIO" },
-  { href: "#skills", label: "SKILLS" },
+  { href: "#principles", label: "HOW I OPERATE" },
+  { href: "#experience", label: "WHERE I'VE BUILT" },
+  { href: "#projects", label: "WHAT I'VE DELIVERED" },
+  { href: "#skills", label: "CAPABILITIES" },
 ];
 
 const milestones = [
@@ -23,12 +23,12 @@ const milestones = [
 ];
 
 const principles = [
-  { title: "Lead with Empathy", description: "Great outcomes start with trust. I assume positive intent, listen deeply, and aim to understand context before pushing solutions.", icon: Heart },
-  { title: "Build for Adoption, Not Demos", description: "Enterprise success isn't about what's possible—it's about what can be trusted, governed, and repeated at scale.", icon: Lightbulb },
-  { title: "Systems > Features", description: "Lasting impact comes from strong systems, clear narratives, and aligned incentives—not isolated features.", icon: Users },
-  { title: "Grit Beats Brilliance", description: "Progress compounds. I focus on steady execution, learning fast from failures, and getting 1% better every day.", icon: Target },
-  { title: "Feedback Is a Force Multiplier", description: "Candid feedback—given and received—accelerates growth when paired with action and accountability.", icon: MessageSquare },
-  { title: "Speed With Intent", description: "Strategy sets direction; execution creates results. Small, focused teams shipping quickly within clear frameworks win—especially with AI-native leverage.", icon: Rocket },
+  { title: "Assume Positive Intent", description: "I default to trust and curiosity. Most friction disappears when people feel heard, respected, and understood.", icon: Heart },
+  { title: "Depth Creates Leverage", description: "Understanding systems at the implementation level leads to better decisions, stronger credibility, and faster execution.", icon: Lightbulb },
+  { title: "Outcomes Over Titles", description: "Leadership is measured by the success of teams and customers—not hierarchy. My focus is enablement, alignment, and accountability.", icon: Users },
+  { title: "Consistency Compounds", description: "Sustained effort and learning through setbacks outperform raw talent. Small gains, repeated, create real advantage.", icon: Target },
+  { title: "Shorten the Loop", description: "Candid feedback applied quickly accelerates growth—for individuals, teams, and products.", icon: MessageSquare },
+  { title: "Bias Toward Action", description: "Clear strategy matters, but progress requires motion. Focused teams that execute quickly—especially with AI-native leverage—win.", icon: Rocket },
 ];
 
 const experiences = [
@@ -149,7 +149,7 @@ export default function Home() {
               <Mail className="h-5 w-5" />
             </a>
             <Button asChild size="sm" className="ml-2 rounded-full px-5" data-testid="button-header-contact">
-              <a href="#contact">GET IN TOUCH</a>
+              <a href="#contact">LET'S WORK TOGETHER</a>
             </Button>
           </div>
 
@@ -184,7 +184,7 @@ export default function Home() {
                 onClick={() => setMobileMenuOpen(false)}
                 data-testid="link-mobile-nav-contact"
               >
-                GET IN TOUCH
+                LET'S WORK TOGETHER
               </a>
             </div>
           </div>
@@ -307,7 +307,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-principles-title">
-              My Operating System
+              How I Operate
             </h2>
             <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
           </div>
@@ -423,7 +423,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-projects-title">
-              Portfolio & Projects
+              What I've Delivered
             </h2>
           </div>
           
@@ -452,7 +452,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <Card className="p-6 md:p-10 text-center bg-gradient-to-br from-card via-card to-primary/5">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4" data-testid="text-contact-title">
-              Get In Touch
+              Let's Work Together
             </h2>
             <p className="text-base text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Ready to explore how AI-native systems, strong GTM execution, and trusted adoption frameworks can drive real enterprise outcomes? Let's connect.
