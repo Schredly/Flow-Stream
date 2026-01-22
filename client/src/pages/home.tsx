@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Linkedin, Mail, MapPin, Heart, Building2, GraduationCap, Users, Target, Lightbulb, MessageSquare, Rocket, Menu, X } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.png";
+import { AISummaryModal } from "@/components/ai-summary-modal";
 
 const navLinks = [
   { href: "#principles", label: "VALUES" },
@@ -98,6 +99,7 @@ const companyLogos = [
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [showSummaryModal, setShowSummaryModal] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -250,7 +252,7 @@ export default function Home() {
                     <span>1,350 words</span>
                   </div>
                 </div>
-                <Button size="sm" className="w-full rounded-lg" data-testid="button-summary">
+                <Button size="sm" className="w-full rounded-lg" onClick={() => setShowSummaryModal(true)} data-testid="button-summary">
                   <svg className="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M12 2L2 7l10 5 10-5-10-5z" />
                     <path d="M2 17l10 5 10-5" />
@@ -488,6 +490,8 @@ export default function Home() {
           <p>&copy; {new Date().getFullYear()} Eric Schroeder. All rights reserved.</p>
         </div>
       </footer>
+
+      <AISummaryModal isOpen={showSummaryModal} onClose={() => setShowSummaryModal(false)} />
     </div>
   );
 }
