@@ -306,23 +306,37 @@ export default function Home() {
       </section>
 
       <section className="py-20 px-6" id="principles">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-principles-title">
               Guiding Principles
             </h2>
+            <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {principles.map((principle, index) => (
-              <Card key={index} className="p-6 hover-elevate transition-all duration-300" data-testid={`card-principle-${index}`}>
-                <div className="mb-4 p-3 bg-primary/10 rounded-md w-fit">
-                  <principle.icon className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-foreground text-lg mb-3">{principle.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{principle.description}</p>
-              </Card>
-            ))}
+          <div className="relative">
+            <div className="absolute left-1/2 top-0 bottom-0 w-px bg-border hidden md:block" style={{ transform: 'translateX(-50%)' }} />
+            
+            <div className="space-y-12 md:space-y-24">
+              {principles.map((principle, index) => {
+                const isLeft = index % 2 === 0;
+                return (
+                  <div key={index} className="relative">
+                    <div className="absolute left-1/2 top-8 w-3 h-3 bg-background border-2 border-muted-foreground/30 rounded-full hidden md:block" style={{ transform: 'translateX(-50%)' }} />
+                    
+                    <div className={`md:w-[45%] ${isLeft ? 'md:mr-auto md:pr-8' : 'md:ml-auto md:pl-8'}`}>
+                      <Card className="p-6 hover-elevate transition-all duration-300 border-primary/20" data-testid={`card-principle-${index}`}>
+                        <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit border border-primary/20">
+                          <principle.icon className="h-6 w-6 text-primary" />
+                        </div>
+                        <h3 className="font-semibold text-foreground text-xl mb-3">{principle.title}</h3>
+                        <p className="text-muted-foreground leading-relaxed">{principle.description}</p>
+                      </Card>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
