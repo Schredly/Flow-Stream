@@ -309,7 +309,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-principles-title">
-              Guiding Principles
+              My Operating System
             </h2>
             <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
           </div>
