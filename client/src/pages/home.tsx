@@ -327,7 +327,7 @@ export default function Home() {
                 <img
                   src={profilePhoto}
                   alt="Eric Schroeder"
-                  className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full shadow-2xl border border-red-700/70"
+                  className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full shadow-2xl border-2 border-red-700/70"
                   data-testid="img-profile"
                 />
               </div>
