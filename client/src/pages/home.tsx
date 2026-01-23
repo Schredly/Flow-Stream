@@ -130,7 +130,6 @@ const companyLogos = [
   { name: "Google", icon: SiGoogle },
   { name: "Costco", icon: Building2 },
   { name: "Target", icon: SiTarget },
-  { name: "Safeway", icon: Building2 },
   { name: "Morgan Stanley", icon: Building2 },
   { name: "AIG", icon: Building2 },
   { name: "TD Bank", icon: Building2 },
