@@ -256,7 +256,7 @@ export default function Home() {
               </p>
               
               <p className="text-base md:text-lg text-muted-foreground mb-10 leading-relaxed max-w-xl animate-fade-in-up opacity-0 animation-delay-300">
-                I operate at the intersection of <strong className="text-foreground">product, engineering, and go-to-market</strong>, bringing a builder's mindset to enterprise GTM leadership. I help organizations translate emerging technologies—especially AI and agentic systems—into <strong className="text-foreground">trusted, scalable, revenue-driving solutions</strong>. With 25+ years building, scaling, and selling enterprise platforms, I specialize in turning complex systems into clear narratives, repeatable motions, and measurable outcomes—from early incubation to $1B+ categories.
+                I operate across <strong className="text-foreground">product, engineering, and go-to-market</strong> with a builder's mindset, bringing hands-on leadership to enterprise GTM execution. I help organizations translate emerging technologies—especially <strong className="text-foreground">AI and agentic systems</strong>—into trusted, scalable, revenue-driving platforms. With <strong className="text-foreground">25+ years</strong> building, scaling, and selling enterprise software, I specialize in turning complex systems into <strong className="text-foreground">clear narratives, repeatable motions, and measurable outcomes</strong>—from early incubation to <strong className="text-foreground">$1B+ product categories</strong>.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 animation-delay-400">
