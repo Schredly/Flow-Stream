@@ -33,6 +33,19 @@ const principles = [
 
 const experiences = [
   {
+    title: "Advisor / Operator",
+    company: "Cogent West",
+    companyShort: "Cogent West",
+    slug: "cogentwest",
+    period: "2025 - Present",
+    icon: Lightbulb,
+    responsibilities: [
+      "Advise founders and leadership teams on enterprise AI strategy, GTM positioning, and operating models.",
+      "Build enterprise narratives, demos, and adoption frameworks that accelerate trust and buying confidence.",
+      "Support early-stage and growth-stage teams in turning innovation into durable market traction.",
+    ],
+  },
+  {
     title: "VP — Sales Engineering & Post-Sales",
     company: "Standard Template Labs (Copy.ai)",
     companyShort: "Copy.ai",
@@ -51,7 +64,7 @@ const experiences = [
     company: "ServiceNow",
     companyShort: "ServiceNow",
     slug: "servicenow",
-    period: "2006 - 2025",
+    period: "2014 - 2025",
     icon: Building2,
     responsibilities: [
       "Helped scale ServiceNow from early ITSM roots into a global enterprise platform exceeding $1B in revenue.",
@@ -61,16 +74,17 @@ const experiences = [
     ],
   },
   {
-    title: "Advisor / Operator",
-    company: "Cogent West",
-    companyShort: "Cogent West",
-    slug: "cogentwest",
-    period: "2025 - Present",
-    icon: Lightbulb,
+    title: "Director, Solution Consulting — West",
+    company: "ServiceNow",
+    companyShort: "ServiceNow",
+    slug: "servicenow-director",
+    period: "2011 - 2014",
+    icon: Building2,
     responsibilities: [
-      "Advise founders and leadership teams on enterprise AI strategy, GTM positioning, and operating models.",
-      "Build enterprise narratives, demos, and adoption frameworks that accelerate trust and buying confidence.",
-      "Support early-stage and growth-stage teams in turning innovation into durable market traction.",
+      "Built and scaled ServiceNow's Western Solution Consulting organization, establishing the foundational pre-sales motion across enterprise accounts.",
+      "Led and developed high-performing teams of Enterprise Solution Consultants and Managers to support and exceed annual sales targets.",
+      "Drove strategic account and key opportunity execution through value-based selling, tailored demos, and executive-level platform storytelling.",
+      "Partnered closely with Sales, Product, and Executive leadership to accelerate deal velocity and expand enterprise adoption.",
     ],
   },
 ];
