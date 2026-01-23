@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Linkedin, Mail, MapPin, Heart, Building2, GraduationCap, Users, Target, Lightbulb, MessageSquare, Rocket, Menu, X } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.png";
+import profilePhoto from "@assets/IMG_0491_1769191588272.jpg";
 import { AISummaryModal } from "@/components/ai-summary-modal";
 
 const navLinks = [
