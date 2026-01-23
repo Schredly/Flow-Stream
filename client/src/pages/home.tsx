@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Linkedin, Mail, MapPin, Heart, Building2, GraduationCap, Users, Target, Lightbulb, MessageSquare, Rocket, Menu, X } from "lucide-react";
+import { SiNetflix, SiApple, SiNvidia, SiIntel, SiAmericanexpress, SiBoeing, SiAmazon, SiGoogle } from "react-icons/si";
 import profilePhoto from "@assets/1701242518815_1769191726722.jpg";
 import { AISummaryModal } from "@/components/ai-summary-modal";
 
@@ -117,7 +118,16 @@ const projects = [
 ];
 
 const companyLogos = [
-  "Netflix", "Apple", "NVIDIA", "Disney", "Intel", "American Express", "Boeing", "Microsoft", "Amazon", "Google"
+  { name: "Netflix", icon: SiNetflix },
+  { name: "Apple", icon: SiApple },
+  { name: "NVIDIA", icon: SiNvidia },
+  { name: "Disney", icon: Building2 },
+  { name: "Intel", icon: SiIntel },
+  { name: "American Express", icon: SiAmericanexpress },
+  { name: "Boeing", icon: SiBoeing },
+  { name: "Microsoft", icon: Building2 },
+  { name: "Amazon", icon: SiAmazon },
+  { name: "Google", icon: SiGoogle },
 ];
 
 export default function Home() {
@@ -399,8 +409,9 @@ export default function Home() {
             <h3 className="text-xl font-semibold text-foreground text-center mb-8">Trusted by Leading Enterprise Organizations</h3>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6">
               {companyLogos.map((logo, index) => (
-                <div key={index} className="px-5 py-2.5 bg-card rounded-md border border-border/50 hover-elevate transition-all duration-200" data-testid={`logo-company-${index}`}>
-                  <span className="text-muted-foreground font-medium text-sm">{logo}</span>
+                <div key={index} className="flex items-center gap-2 px-4 py-2.5 bg-card rounded-md border border-border/50 hover-elevate transition-all duration-200" data-testid={`logo-company-${index}`}>
+                  <logo.icon className="h-4 w-4 text-muted-foreground" />
+                  <span className="text-muted-foreground font-medium text-sm">{logo.name}</span>
                 </div>
               ))}
             </div>
