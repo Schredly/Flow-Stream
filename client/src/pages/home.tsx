@@ -349,7 +349,7 @@ export default function Home() {
                 const isLeft = index % 2 === 0;
                 return (
                   <div key={index} className="relative">
-                    <div className="absolute left-1/2 top-8 w-2 h-2 bg-red-700 border border-muted-foreground/50 rounded-full hidden md:block" style={{ transform: 'translateX(-50%)' }} />
+                    <div className="absolute left-1/2 top-8 w-2.5 h-2.5 bg-red-700 border border-muted-foreground/50 rounded-full hidden md:block" style={{ transform: 'translateX(-50%)' }} />
                     
                     <div className={`md:w-[45%] ${isLeft ? 'md:mr-auto md:pr-8' : 'md:ml-auto md:pl-8'}`}>
                       <Card className={`p-6 hover-elevate transition-all duration-300 border-red-700/50 ${isLeft ? 'scroll-animate-left' : 'scroll-animate-right'}`} data-testid={`card-principle-${index}`}>
