@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Linkedin, Mail, MapPin, Heart, Building2, GraduationCap, Users, Target, Lightbulb, MessageSquare, Rocket, Menu, X } from "lucide-react";
-import { SiNetflix, SiApple, SiNvidia, SiIntel, SiAmericanexpress, SiBoeing, SiAmazon, SiGoogle } from "react-icons/si";
+import { SiNetflix, SiApple, SiNvidia, SiIntel, SiAmericanexpress, SiBoeing, SiAmazon, SiGoogle, SiTarget, SiExpedia } from "react-icons/si";
 import profilePhoto from "@assets/1701242518815_1769191726722.jpg";
 import { AISummaryModal } from "@/components/ai-summary-modal";
 
@@ -128,6 +128,13 @@ const companyLogos = [
   { name: "Microsoft", icon: Building2 },
   { name: "Amazon", icon: SiAmazon },
   { name: "Google", icon: SiGoogle },
+  { name: "Costco", icon: Building2 },
+  { name: "Target", icon: SiTarget },
+  { name: "Safeway", icon: Building2 },
+  { name: "Morgan Stanley", icon: Building2 },
+  { name: "AIG", icon: Building2 },
+  { name: "TD Bank", icon: Building2 },
+  { name: "Expedia", icon: SiExpedia },
 ];
 
 export default function Home() {
