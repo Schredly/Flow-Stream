@@ -257,7 +257,7 @@ export default function Home() {
             </div>
             
             <div className="order-1 lg:order-2 flex flex-col items-center lg:items-end animate-scale-in">
-              <Card className="mb-4 p-4 bg-card/80 backdrop-blur-sm border-red-700 rounded-xl">
+              <Card className="mb-4 p-4 bg-card/80 backdrop-blur-sm border-red-700/50 rounded-xl">
                 <div className="flex items-center gap-6 text-sm text-muted-foreground mb-3">
                   <div className="flex items-center gap-2">
                     <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -292,7 +292,7 @@ export default function Home() {
                 <img
                   src={profilePhoto}
                   alt="Eric Schroeder"
-                  className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full shadow-2xl border-2 border-red-700"
+                  className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full shadow-2xl border border-red-700/70"
                   data-testid="img-profile"
                 />
               </div>
