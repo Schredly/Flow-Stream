@@ -68,10 +68,11 @@ const experiences = [
     period: "2014 - 2025",
     icon: Building2,
     responsibilities: [
-      "Helped scale ServiceNow from early ITSM roots into a global enterprise platform exceeding $1B in revenue.",
-      "Led NowX incubation efforts launching 20+ products across new workflows, AI, and platform capabilities.",
-      "Advanced enterprise AI strategy, including early work on agentic systems, governance, and safety.",
-      "Partnered cross-functionally across product, GTM, and exec leadership to create category-defining outcomes.",
+      "Helped scale ServiceNow from its ITSM foundation into a global, multi-workflow enterprise platform exceeding $1B+ in annual revenue, expanding beyond IT into employee, risk, finance, and operational domains.",
+      "Founded and led NowX, ServiceNow's product incubation engine, launching 20+ net-new products across enterprise workflows, platform services, and AI-driven capabilities.",
+      "Advanced ServiceNow's enterprise AI and agentic strategy, including early implementation of AI governance, safety frameworks, and trust controls required for regulated, large-scale adoption.",
+      "Worked at the intersection of Product, Sales Engineering, GTM, and Executive Leadership to ensure innovation translated into customer value, adoption velocity, and revenue impact.",
+      "Established repeatable incubation and launch models that aligned product design, sales enablement, and customer success, accelerating time-to-value for new platform capabilities.",
     ],
   },
   {
@@ -82,10 +83,11 @@ const experiences = [
     period: "2006 - 2014",
     icon: Building2,
     responsibilities: [
-      "Built and scaled ServiceNow's Western Solution Consulting organization, establishing the foundational pre-sales motion across enterprise accounts.",
-      "Led and developed high-performing teams of Enterprise Solution Consultants and Managers to support and exceed annual sales targets.",
-      "Drove strategic account and key opportunity execution through value-based selling, tailored demos, and executive-level platform storytelling.",
-      "Partnered closely with Sales, Product, and Executive leadership to accelerate deal velocity and expand enterprise adoption.",
+      "Built and scaled ServiceNow's Western Solution Consulting organization, establishing the company's foundational enterprise pre-sales and customer engagement motion during its rapid growth phase.",
+      "Recruited, developed, and led high-performing teams of Enterprise Solution Consultants and Managers, directly supporting and exceeding annual enterprise sales targets.",
+      "Defined and executed value-based selling strategies, including tailored demos, proof-of-value engagements, and executive-level platform narratives aligned to customer business outcomes.",
+      "Partnered deeply with Sales, Product Management, and Executive Leadership to shape deal strategy, influence roadmap priorities, and accelerate enterprise adoption.",
+      "Played a key role in landing and expanding strategic enterprise accounts, helping position ServiceNow as a trusted platform partner rather than a point-solution vendor.",
     ],
   },
 ];
