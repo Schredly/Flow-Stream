@@ -55,7 +55,7 @@ const experiences = [
     icon: Building2,
     responsibilities: [
       "Helped scale ServiceNow from early ITSM roots into a global enterprise platform exceeding $1B in revenue.",
-      "Led NowX incubation efforts launching 14 products across new workflows, AI, and platform capabilities.",
+      "Led NowX incubation efforts launching 20+ products across new workflows, AI, and platform capabilities.",
       "Advanced enterprise AI strategy, including early work on agentic systems, governance, and safety.",
       "Partnered cross-functionally across product, GTM, and exec leadership to create category-defining outcomes.",
     ],
