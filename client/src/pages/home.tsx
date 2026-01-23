@@ -114,6 +114,26 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view");
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+    );
+
+    const animatedElements = document.querySelectorAll(
+      ".scroll-animate, .scroll-animate-left, .scroll-animate-right, .scroll-animate-scale"
+    );
+    animatedElements.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <div className="fixed top-0 left-0 right-0 h-1 bg-red-700 z-[10000]" />
@@ -283,7 +303,7 @@ export default function Home() {
 
       <section className="py-20 px-6 bg-card/50" id="milestones">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 scroll-animate">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-milestones-title">
               Career & Personal Milestones
             </h2>
@@ -294,7 +314,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {milestones.map((milestone, index) => (
-              <Card key={index} className="p-6 hover-elevate transition-all duration-300 border-red-700/50" data-testid={`card-milestone-${index}`}>
+              <Card key={index} className={`p-6 hover-elevate transition-all duration-300 border-red-700/50 scroll-animate scroll-delay-${(index % 3 + 1) * 100}`} data-testid={`card-milestone-${index}`}>
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-primary/10 rounded-md flex-shrink-0">
                     <milestone.icon className="h-6 w-6 text-primary" />
@@ -314,7 +334,7 @@ export default function Home() {
 
       <section className="py-20 px-6" id="principles">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 scroll-animate">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-principles-title">
               How I Operate
             </h2>
@@ -332,7 +352,7 @@ export default function Home() {
                     <div className="absolute left-1/2 top-8 w-3 h-3 bg-background border-2 border-muted-foreground/30 rounded-full hidden md:block" style={{ transform: 'translateX(-50%)' }} />
                     
                     <div className={`md:w-[45%] ${isLeft ? 'md:mr-auto md:pr-8' : 'md:ml-auto md:pl-8'}`}>
-                      <Card className="p-6 hover-elevate transition-all duration-300 border-red-700/50" data-testid={`card-principle-${index}`}>
+                      <Card className={`p-6 hover-elevate transition-all duration-300 border-red-700/50 ${isLeft ? 'scroll-animate-left' : 'scroll-animate-right'}`} data-testid={`card-principle-${index}`}>
                         <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit border border-primary/20">
                           <principle.icon className="h-6 w-6 text-primary" />
                         </div>
@@ -350,7 +370,7 @@ export default function Home() {
 
       <section className="py-20 px-6 bg-card/50" id="experience">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 scroll-animate">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-experience-title">
               Professional Experience
             </h2>
@@ -375,7 +395,7 @@ export default function Home() {
               return (
                 <div 
                   key={index} 
-                  className={`relative mb-12 md:mb-16 ${isEven ? 'md:pr-[15%]' : 'md:pl-[15%]'}`}
+                  className={`relative mb-12 md:mb-16 ${isEven ? 'md:pr-[15%]' : 'md:pl-[15%]'} ${isEven ? 'scroll-animate-left' : 'scroll-animate-right'}`}
                   data-testid={`card-experience-${index}`}
                 >
                   {index > 0 && (
@@ -441,7 +461,7 @@ export default function Home() {
 
       <section className="py-20 px-6" id="skills">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 scroll-animate">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-skills-title">
               Skills & Expertise
             </h2>
@@ -449,7 +469,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-6">
             {skills.map((skill, index) => (
-              <Card key={index} className="p-6 border-red-700/50" data-testid={`card-skill-${index}`}>
+              <Card key={index} className={`p-6 border-red-700/50 scroll-animate scroll-delay-${(index + 1) * 100}`} data-testid={`card-skill-${index}`}>
                 <h3 className="font-semibold text-foreground text-base mb-4 pb-3 border-b border-border">
                   {skill.category}
                 </h3>
@@ -469,7 +489,7 @@ export default function Home() {
 
       <section className="py-20 px-6 bg-card/50" id="projects">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 scroll-animate">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-projects-title">
               What I've Delivered
             </h2>
@@ -477,7 +497,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project, index) => (
-              <Card key={index} className="p-6 hover-elevate transition-all duration-300 group flex flex-col border-red-700/50" data-testid={`card-project-${index}`}>
+              <Card key={index} className={`p-6 hover-elevate transition-all duration-300 group flex flex-col border-red-700/50 scroll-animate-scale scroll-delay-${(index % 3 + 1) * 100}`} data-testid={`card-project-${index}`}>
                 <h3 className="font-semibold text-foreground text-base mb-3">{project.title}</h3>
                 <div className="flex flex-wrap gap-1.5 mb-3">
                   {project.tags.map((tag, idx) => (
@@ -498,7 +518,7 @@ export default function Home() {
 
       <section className="py-20 px-6" id="contact">
         <div className="max-w-4xl mx-auto">
-          <Card className="p-6 md:p-10 text-center bg-gradient-to-br from-card via-card to-primary/5 border-red-700/50">
+          <Card className="p-6 md:p-10 text-center bg-gradient-to-br from-card via-card to-primary/5 border-red-700/50 scroll-animate-scale">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4" data-testid="text-contact-title">
               Let's Work Together
             </h2>
