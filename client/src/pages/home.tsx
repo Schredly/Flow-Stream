@@ -118,7 +118,7 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <div className="fixed top-0 left-0 right-0 h-1 bg-red-700 z-[10000]" />
       <header
-        className={`fixed top-1 left-0 right-0 z-[9999] transition-all duration-300 border-b border-white/10 ${
+        className={`fixed top-1 left-0 right-0 z-[9999] transition-all duration-300 border-b border-red-700/50 ${
           isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm" : "bg-transparent"
         }`}
       >
@@ -221,13 +221,13 @@ export default function Home() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 animation-delay-400">
-                <Button asChild size="lg" className="rounded-full px-8" data-testid="link-linkedin">
+                <Button asChild size="lg" className="rounded-full px-8 border border-red-700" data-testid="link-linkedin">
                   <a href="https://www.linkedin.com/in/eric-schroeder-8a28933a6/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-2 h-5 w-5" />
                     LinkedIn Profile
                   </a>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="rounded-full px-8" data-testid="link-email">
+                <Button asChild variant="outline" size="lg" className="rounded-full px-8 border-red-700" data-testid="link-email">
                   <a href="mailto:ericschrdr@gmail.com">
                     <Mail className="mr-2 h-5 w-5" />
                     Email Me
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
             
             <div className="order-1 lg:order-2 flex flex-col items-center lg:items-end animate-scale-in">
-              <Card className="mb-4 p-4 bg-card/80 backdrop-blur-sm border-primary/20 rounded-xl">
+              <Card className="mb-4 p-4 bg-card/80 backdrop-blur-sm border-red-700 rounded-xl">
                 <div className="flex items-center gap-6 text-sm text-muted-foreground mb-3">
                   <div className="flex items-center gap-2">
                     <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -257,7 +257,7 @@ export default function Home() {
                     <span>1,350 words</span>
                   </div>
                 </div>
-                <Button size="sm" className="w-full rounded-lg" onClick={() => setShowSummaryModal(true)} data-testid="button-summary">
+                <Button size="sm" className="w-full rounded-lg border border-red-700" onClick={() => setShowSummaryModal(true)} data-testid="button-summary">
                   <svg className="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M12 2L2 7l10 5 10-5-10-5z" />
                     <path d="M2 17l10 5 10-5" />
@@ -272,7 +272,7 @@ export default function Home() {
                 <img
                   src={profilePhoto}
                   alt="Eric Schroeder"
-                  className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full shadow-2xl border-2 border-primary/20"
+                  className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full shadow-2xl border-2 border-red-700"
                   data-testid="img-profile"
                 />
               </div>
@@ -294,7 +294,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {milestones.map((milestone, index) => (
-              <Card key={index} className="p-6 hover-elevate transition-all duration-300" data-testid={`card-milestone-${index}`}>
+              <Card key={index} className="p-6 hover-elevate transition-all duration-300 border-red-700/50" data-testid={`card-milestone-${index}`}>
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-primary/10 rounded-md flex-shrink-0">
                     <milestone.icon className="h-6 w-6 text-primary" />
@@ -332,7 +332,7 @@ export default function Home() {
                     <div className="absolute left-1/2 top-8 w-3 h-3 bg-background border-2 border-muted-foreground/30 rounded-full hidden md:block" style={{ transform: 'translateX(-50%)' }} />
                     
                     <div className={`md:w-[45%] ${isLeft ? 'md:mr-auto md:pr-8' : 'md:ml-auto md:pl-8'}`}>
-                      <Card className="p-6 hover-elevate transition-all duration-300 border-primary/20" data-testid={`card-principle-${index}`}>
+                      <Card className="p-6 hover-elevate transition-all duration-300 border-red-700/50" data-testid={`card-principle-${index}`}>
                         <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit border border-primary/20">
                           <principle.icon className="h-6 w-6 text-primary" />
                         </div>
@@ -385,7 +385,7 @@ export default function Home() {
                     </div>
                   )}
                   
-                  <Card className="overflow-hidden relative">
+                  <Card className="overflow-hidden relative border-red-700/50">
                     <div className="bg-card border-b border-border px-4 py-2.5 flex items-center gap-2">
                       <div className="flex items-center gap-1.5">
                         <div className="w-3 h-3 rounded-full bg-red-500/80" />
@@ -449,7 +449,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-6">
             {skills.map((skill, index) => (
-              <Card key={index} className="p-6" data-testid={`card-skill-${index}`}>
+              <Card key={index} className="p-6 border-red-700/50" data-testid={`card-skill-${index}`}>
                 <h3 className="font-semibold text-foreground text-base mb-4 pb-3 border-b border-border">
                   {skill.category}
                 </h3>
@@ -477,7 +477,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project, index) => (
-              <Card key={index} className="p-6 hover-elevate transition-all duration-300 group flex flex-col" data-testid={`card-project-${index}`}>
+              <Card key={index} className="p-6 hover-elevate transition-all duration-300 group flex flex-col border-red-700/50" data-testid={`card-project-${index}`}>
                 <h3 className="font-semibold text-foreground text-base mb-3">{project.title}</h3>
                 <div className="flex flex-wrap gap-1.5 mb-3">
                   {project.tags.map((tag, idx) => (
@@ -498,7 +498,7 @@ export default function Home() {
 
       <section className="py-20 px-6" id="contact">
         <div className="max-w-4xl mx-auto">
-          <Card className="p-6 md:p-10 text-center bg-gradient-to-br from-card via-card to-primary/5">
+          <Card className="p-6 md:p-10 text-center bg-gradient-to-br from-card via-card to-primary/5 border-red-700/50">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4" data-testid="text-contact-title">
               Let's Work Together
             </h2>
@@ -507,13 +507,13 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button asChild size="lg" data-testid="button-contact-email">
+              <Button asChild size="lg" className="border border-red-700" data-testid="button-contact-email">
                 <a href="mailto:ericschrdr@gmail.com">
                   <Mail className="mr-2 h-5 w-5" />
                   ericschrdr@gmail.com
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" data-testid="button-contact-linkedin">
+              <Button asChild variant="outline" size="lg" className="border-red-700" data-testid="button-contact-linkedin">
                 <a href="https://www.linkedin.com/in/eric-schroeder-8a28933a6/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-5 w-5" />
                   linkedin.com/in/eric-schroeder
@@ -529,7 +529,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="py-8 px-6 border-t border-border">
+      <footer className="py-8 px-6 border-t border-red-700/50">
         <div className="max-w-6xl mx-auto text-center text-muted-foreground text-sm">
           <p>&copy; {new Date().getFullYear()} Eric Schroeder. All rights reserved.</p>
         </div>

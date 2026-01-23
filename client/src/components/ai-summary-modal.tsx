@@ -107,7 +107,7 @@ export function AISummaryModal({ isOpen, onClose }: AISummaryModalProps) {
 
   return (
     <div className="fixed inset-0 z-[10001] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-      <Card className="relative w-full max-w-2xl max-h-[80vh] overflow-hidden bg-card border-primary/20">
+      <Card className="relative w-full max-w-2xl max-h-[80vh] overflow-hidden bg-card border-red-700">
         <Button
           variant="ghost"
           size="icon"
@@ -133,7 +133,7 @@ export function AISummaryModal({ isOpen, onClose }: AISummaryModalProps) {
               <p className="text-muted-foreground leading-relaxed mb-8">{summary}</p>
 
               {showChat ? (
-                <div className="border-t border-border pt-6">
+                <div className="border-t border-red-700/50 pt-6">
                   <div className="space-y-4 mb-4 max-h-60 overflow-y-auto">
                     {messages.map((msg, idx) => (
                       <div
@@ -163,11 +163,12 @@ export function AISummaryModal({ isOpen, onClose }: AISummaryModalProps) {
                       onChange={(e) => setInputValue(e.target.value)}
                       onKeyDown={(e) => e.key === "Enter" && handleSendMessage()}
                       placeholder="Ask about Eric..."
-                      className="flex-1 px-4 py-2 rounded-lg bg-muted border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
+                      className="flex-1 px-4 py-2 rounded-lg bg-muted border border-red-700/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-red-700"
                       data-testid="input-chat"
                     />
                     <Button
                       size="icon"
+                      className="border border-red-700"
                       onClick={handleSendMessage}
                       disabled={chatLoading || !inputValue.trim()}
                       data-testid="button-send-chat"
@@ -184,7 +185,7 @@ export function AISummaryModal({ isOpen, onClose }: AISummaryModalProps) {
                 <div className="flex justify-center">
                   <Button
                     variant="outline"
-                    className="rounded-full px-6"
+                    className="rounded-full px-6 border-red-700"
                     onClick={() => setShowChat(true)}
                     data-testid="button-ask-ai"
                   >
