@@ -83,7 +83,7 @@ const experiences = [
     company: "ServiceNow",
     companyShort: "ServiceNow",
     slug: "servicenow-director",
-    period: "2006 - 2014",
+    period: "2012 - 2014",
     icon: Building2,
     responsibilities: [
       "Built and scaled ServiceNow's Western Solution Consulting organization, establishing the company's foundational enterprise pre-sales and customer engagement motion during its rapid growth phase.",
@@ -91,6 +91,22 @@ const experiences = [
       "Defined and executed value-based selling strategies, including tailored demos, proof-of-value engagements, and executive-level platform narratives aligned to customer business outcomes.",
       "Partnered deeply with Sales, Product Management, and Executive Leadership to shape deal strategy, influence roadmap priorities, and accelerate enterprise adoption.",
       "Played a key role in landing and expanding strategic enterprise accounts, helping position ServiceNow as a trusted platform partner rather than a point-solution vendor.",
+    ],
+  },
+  {
+    title: "Solution Architect & Senior Roles",
+    company: "ServiceNow",
+    companyShort: "ServiceNow",
+    slug: "servicenow-architect",
+    period: "2006 - 2012",
+    icon: Building2,
+    responsibilities: [
+      "Early leader during ServiceNow's hyper-growth phase, partnering with enterprise customers to translate complex requirements into scalable platform solutions.",
+      "Closed 250+ enterprise logos and $250M+ in contract value, supporting global accounts across multiple industries.",
+      "Led strategic wins with companies including Disney, Apple, Microsoft, Amazon, GE, and Intel, positioning ServiceNow as a long-term platform partner.",
+      "Improved strategic win rates by 35% through custom demos, proof-of-concept engagements, and value-driven solution design.",
+      "Mentored and developed 50+ solution consultants, helping scale the organization during rapid growth.",
+      "Established solution design standards that reduced customer time-to-value by 40% and improved implementation consistency.",
     ],
   },
 ];
