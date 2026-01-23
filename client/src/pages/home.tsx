@@ -401,7 +401,7 @@ export default function Home() {
                   {index > 0 && (
                     <div className="absolute left-1/2 -top-8 flex flex-col items-center" style={{ transform: 'translateX(-50%)' }}>
                       <div className="w-0.5 h-4 bg-primary/50" />
-                      <div className="w-3 h-3 bg-primary rounded-full" />
+                      <div className="w-2.5 h-2.5 bg-red-700 border border-muted-foreground/50 rounded-full" />
                     </div>
                   )}
                   
@@ -448,7 +448,7 @@ export default function Home() {
                   
                   {!isLast && (
                     <div className="absolute left-1/2 -bottom-8 flex flex-col items-center" style={{ transform: 'translateX(-50%)' }}>
-                      <div className="w-3 h-3 bg-primary rounded-full" />
+                      <div className="w-2.5 h-2.5 bg-red-700 border border-muted-foreground/50 rounded-full" />
                       <div className="w-0.5 h-4 bg-primary/50" />
                     </div>
                   )}
