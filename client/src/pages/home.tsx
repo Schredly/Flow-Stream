@@ -79,7 +79,7 @@ const experiences = [
     company: "ServiceNow",
     companyShort: "ServiceNow",
     slug: "servicenow-director",
-    period: "2011 - 2014",
+    period: "2006 - 2014",
     icon: Building2,
     responsibilities: [
       "Built and scaled ServiceNow's Western Solution Consulting organization, establishing the foundational pre-sales motion across enterprise accounts.",
