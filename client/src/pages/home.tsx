@@ -33,16 +33,18 @@ const principles = [
 
 const experiences = [
   {
-    title: "Advisor / Operator",
-    company: "Cogent West",
+    title: "Founder & Principal — Cogent West",
+    company: "Advisory & Product Refactoring Studio",
     companyShort: "Cogent West",
     slug: "cogentwest",
-    period: "2025 - Present",
+    period: "2023 - Present",
     icon: Lightbulb,
     responsibilities: [
-      "Advise founders and leadership teams on enterprise AI strategy, GTM positioning, and operating models.",
-      "Build enterprise narratives, demos, and adoption frameworks that accelerate trust and buying confidence.",
-      "Support early-stage and growth-stage teams in turning innovation into durable market traction.",
+      "Partner with founders and executive teams to refactor legacy platforms and workflows into modern, AI-native applications—bridging strategy, architecture, and execution.",
+      "Advise on enterprise AI strategy, GTM positioning, and operating models, helping companies move from experimental AI to trusted, production-ready systems.",
+      "Design enterprise narratives, value-based demos, and adoption frameworks that accelerate customer confidence, shorten sales cycles, and drive real usage.",
+      "Work hands-on with product, engineering, and sales engineering teams to translate customer workflows into scalable platform capabilities.",
+      "Support early- and growth-stage companies in turning innovation into durable market traction, repeatable sales motions, and long-term platform value.",
     ],
   },
   {
