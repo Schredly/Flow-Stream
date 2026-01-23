@@ -367,54 +367,74 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="space-y-8">
-            {experiences.map((exp, index) => (
-              <div key={index} className="relative" data-testid={`card-experience-${index}`}>
-                {index > 0 && (
-                  <div className="absolute left-1/2 -top-4 w-3 h-3 bg-primary rounded-full" style={{ transform: 'translateX(-50%)' }} />
-                )}
-                <Card className="overflow-hidden">
-                  <div className="bg-card border-b border-border px-4 py-2.5 flex items-center gap-2">
-                    <div className="flex items-center gap-1.5">
-                      <div className="w-3 h-3 rounded-full bg-red-500/80" />
-                      <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-                      <div className="w-3 h-3 rounded-full bg-green-500/80" />
+          <div className="relative">
+            {experiences.map((exp, index) => {
+              const isEven = index % 2 === 0;
+              const isLast = index === experiences.length - 1;
+              
+              return (
+                <div 
+                  key={index} 
+                  className={`relative mb-12 md:mb-16 ${isEven ? 'md:pr-[15%]' : 'md:pl-[15%]'}`}
+                  data-testid={`card-experience-${index}`}
+                >
+                  {index > 0 && (
+                    <div className="absolute left-1/2 -top-8 flex flex-col items-center" style={{ transform: 'translateX(-50%)' }}>
+                      <div className="w-0.5 h-4 bg-primary/50" />
+                      <div className="w-3 h-3 bg-primary rounded-full" />
                     </div>
-                    <span className="font-mono text-xs text-primary ml-4">
-                      root@eric:~/experience/{exp.slug} $ _
-                    </span>
-                  </div>
+                  )}
                   
-                  <div className="p-6 md:p-8">
-                    <div className="flex items-start justify-between gap-4 mb-6">
-                      <h3 className="text-xl md:text-2xl font-bold text-foreground">{exp.title}</h3>
-                      <div className="p-2.5 bg-primary/10 rounded-lg flex-shrink-0">
-                        <exp.icon className="h-5 w-5 text-primary" />
+                  <Card className="overflow-hidden relative">
+                    <div className="bg-card border-b border-border px-4 py-2.5 flex items-center gap-2">
+                      <div className="flex items-center gap-1.5">
+                        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+                        <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
+                        <div className="w-3 h-3 rounded-full bg-green-500/80" />
                       </div>
+                      <span className="font-mono text-xs text-primary ml-4">
+                        root@eric:~/experience/{exp.slug} $ _
+                      </span>
                     </div>
                     
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="w-10 h-10 bg-muted rounded-md flex items-center justify-center flex-shrink-0">
-                        <Building2 className="h-5 w-5 text-muted-foreground" />
+                    <div className="p-6 md:p-8">
+                      <div className="flex items-start justify-between gap-4 mb-6">
+                        <h3 className="text-xl md:text-2xl font-bold text-foreground">{exp.title}</h3>
+                        <div className="p-2.5 bg-primary/10 rounded-lg flex-shrink-0">
+                          <exp.icon className="h-5 w-5 text-primary" />
+                        </div>
                       </div>
-                      <div>
-                        <p className="font-semibold text-foreground">{exp.companyShort}</p>
-                        <p className="text-sm text-muted-foreground">{exp.period}</p>
+                      
+                      <div className="flex items-center gap-4 mb-6">
+                        <div className="w-10 h-10 bg-muted rounded-md flex items-center justify-center flex-shrink-0">
+                          <Building2 className="h-5 w-5 text-muted-foreground" />
+                        </div>
+                        <div>
+                          <p className="font-semibold text-foreground">{exp.companyShort}</p>
+                          <p className="text-sm text-muted-foreground">{exp.period}</p>
+                        </div>
                       </div>
+                      
+                      <ul className="space-y-3">
+                        {exp.responsibilities.map((resp, idx) => (
+                          <li key={idx} className="flex items-start gap-3">
+                            <span className="text-primary font-mono mt-0.5 flex-shrink-0">{">"}</span>
+                            <span className="text-muted-foreground text-sm leading-relaxed">{resp}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
-                    
-                    <ul className="space-y-3">
-                      {exp.responsibilities.map((resp, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                          <span className="text-primary font-mono mt-0.5 flex-shrink-0">{">"}</span>
-                          <span className="text-muted-foreground text-sm leading-relaxed">{resp}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </Card>
-              </div>
-            ))}
+                  </Card>
+                  
+                  {!isLast && (
+                    <div className="absolute left-1/2 -bottom-8 flex flex-col items-center" style={{ transform: 'translateX(-50%)' }}>
+                      <div className="w-3 h-3 bg-primary rounded-full" />
+                      <div className="w-0.5 h-4 bg-primary/50" />
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
