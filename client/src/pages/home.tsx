@@ -431,7 +431,7 @@ export default function Home() {
             <h3 className="text-xl font-semibold text-foreground text-center mb-8">Trusted by Leading Enterprise Organizations</h3>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6">
               {companyLogos.map((logo, index) => (
-                <div key={index} className="flex items-center gap-2 px-4 py-2.5 bg-card rounded-md border border-border/50 hover-elevate transition-all duration-200" data-testid={`logo-company-${index}`}>
+                <div key={index} className="flex items-center gap-2 px-4 py-2.5 bg-card rounded-md border border-red-700/50 hover-elevate transition-all duration-200" data-testid={`logo-company-${index}`}>
                   <logo.icon className="h-4 w-4 text-muted-foreground" />
                   <span className="text-muted-foreground font-medium text-sm">{logo.name}</span>
                 </div>
