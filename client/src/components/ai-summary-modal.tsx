@@ -111,7 +111,7 @@ export function AISummaryModal({ isOpen, onClose }: AISummaryModalProps) {
         <Button
           variant="ghost"
           size="icon"
-          className="absolute top-3 right-5 z-10"
+          className="absolute top-4 right-6 z-10"
           onClick={onClose}
           data-testid="button-close-modal"
         >
