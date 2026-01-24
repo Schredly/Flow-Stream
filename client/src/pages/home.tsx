@@ -2,10 +2,12 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Linkedin, Mail, MapPin, Heart, Building2, GraduationCap, Users, Target, Lightbulb, MessageSquare, Rocket, Menu, X } from "lucide-react";
+import { Linkedin, Mail, MapPin, Heart, Building2, GraduationCap, Users, Target, Lightbulb, MessageSquare, Rocket, Menu, X, Music } from "lucide-react";
 import { SiNetflix, SiApple, SiNvidia, SiIntel, SiAmericanexpress, SiBoeing, SiAmazon, SiGoogle, SiTarget, SiExpedia } from "react-icons/si";
 import profilePhoto from "@assets/1701242518815_1769191726722.jpg";
 import { AISummaryModal } from "@/components/ai-summary-modal";
+import { MusicPortfolioModal } from "@/components/music-portfolio-modal";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
 const navLinks = [
   { href: "#principles", label: "HOW I OPERATE" },
@@ -156,6 +158,7 @@ export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showSummaryModal, setShowSummaryModal] = useState(false);
+  const [showMusicModal, setShowMusicModal] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -212,6 +215,20 @@ export default function Home() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <button
+                  onClick={() => setShowMusicModal(true)}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                  data-testid="button-header-music"
+                >
+                  <Music className="h-5 w-5" />
+                </button>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>My Music Portfolio</p>
+              </TooltipContent>
+            </Tooltip>
             <a
               href="https://www.linkedin.com/in/eric-schroeder-8a28933a6/"
               target="_blank"
@@ -608,6 +625,7 @@ export default function Home() {
       </footer>
 
       <AISummaryModal isOpen={showSummaryModal} onClose={() => setShowSummaryModal(false)} />
+      <MusicPortfolioModal isOpen={showMusicModal} onClose={() => setShowMusicModal(false)} />
     </div>
   );
 }
