@@ -275,6 +275,17 @@ export default function Home() {
                   {link.label}
                 </a>
               ))}
+              <button
+                onClick={() => {
+                  setShowMusicModal(true);
+                  setMobileMenuOpen(false);
+                }}
+                className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                data-testid="button-mobile-music"
+              >
+                <Music className="h-4 w-4" />
+                Music Portfolio
+              </button>
               <a
                 href="#contact"
                 className="block text-sm font-medium text-primary"
