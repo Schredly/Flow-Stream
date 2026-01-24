@@ -107,34 +107,34 @@ export function AISummaryModal({ isOpen, onClose }: AISummaryModalProps) {
 
   return (
     <div className="fixed inset-0 z-[10001] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-      <Card className="relative w-full max-w-2xl max-h-[80vh] bg-card border-red-700">
-        <Button
-          variant="ghost"
-          size="icon"
-          className="absolute top-4 right-6 z-10"
-          onClick={onClose}
-          data-testid="button-close-modal"
-        >
-          <X className="h-5 w-5" />
-        </Button>
-
-        <div className="p-6 pt-12 overflow-y-auto max-h-[80vh]">
-          <div className="flex items-center gap-3 mb-6">
-            <Sparkles className="h-6 w-6 text-primary" />
-            <h2 className="text-2xl font-bold text-foreground">AI-Powered Executive Summary</h2>
+      <Card className="relative w-full max-w-2xl max-h-[80vh] bg-card border-red-700 flex flex-col overflow-hidden">
+        <div className="flex items-center justify-between p-4 border-b border-red-700/30">
+          <div className="flex items-center gap-3">
+            <Sparkles className="h-5 w-5 text-primary" />
+            <h2 className="text-xl font-bold text-foreground">AI-Powered Executive Summary</h2>
           </div>
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={onClose}
+            data-testid="button-close-modal"
+          >
+            <X className="h-5 w-5" />
+          </Button>
+        </div>
 
+        <div className="flex-1 overflow-y-auto p-6">
           {loading ? (
             <div className="flex items-center justify-center py-12">
               <Loader2 className="h-8 w-8 animate-spin text-primary" />
             </div>
           ) : (
             <>
-              <p className="text-muted-foreground leading-relaxed mb-8">{summary}</p>
+              <p className="text-muted-foreground leading-relaxed mb-6">{summary}</p>
 
               {showChat ? (
-                <div className="border-t border-red-700/50 pt-6">
-                  <div className="space-y-4 mb-4 max-h-60 overflow-y-auto">
+                <div className="border-t border-red-700/50 pt-4">
+                  <div className="space-y-3 mb-4 max-h-48 overflow-y-auto">
                     {messages.map((msg, idx) => (
                       <div
                         key={idx}
