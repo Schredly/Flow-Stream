@@ -246,7 +246,7 @@ export default function Home() {
               <Mail className="h-5 w-5" />
             </a>
             <Button asChild size="sm" className="ml-2 rounded-full px-5" data-testid="button-header-contact">
-              <a href="#contact">LET'S WORK TOGETHER</a>
+              <a href="#contact">LET'S CONNECT</a>
             </Button>
           </div>
 
@@ -292,7 +292,7 @@ export default function Home() {
                 onClick={() => setMobileMenuOpen(false)}
                 data-testid="link-mobile-nav-contact"
               >
-                LET'S WORK TOGETHER
+                LET'S CONNECT
               </a>
             </div>
           </div>
@@ -603,7 +603,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <Card className="p-6 md:p-10 text-center bg-gradient-to-br from-card via-card to-primary/5 border-red-700/50 scroll-animate-scale">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4" data-testid="text-contact-title">
-              Let's Work Together
+              Looking Forward to a Conversation
             </h2>
             <p className="text-base text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               If you're serious about moving AI from pilots to production—and aligning product, engineering, and GTM so it ships, sells, and scales—let's connect. I typically start with a working session to understand your goals, friction points, and path to measurable outcomes.
