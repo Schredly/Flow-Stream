@@ -17,21 +17,21 @@ const navLinks = [
 ];
 
 const milestones = [
-  { icon: Heart, title: "Husband & Father", description: "Grounded leadership starts at home. I value long-term thinking, responsibility, and building systems that last." },
-  { icon: Building2, title: "Category Creation at Scale", description: "Helped scale ServiceNow from an early IT ticketing product into a global ITSM and Enterprise Service Management leader, contributing to a $1B+ category." },
-  { icon: Lightbulb, title: "Product Incubation & 0→1 Leadership", description: "Led incubation initiatives (NowX) launching multiple new products, frameworks, and AI capabilities—bridging early experimentation with enterprise-grade execution." },
-  { icon: Users, title: "Bridging Product, GTM & Enterprise Reality", description: "Consistently translate deep technical capability into executive-level value stories, adoption playbooks, and trusted deployment patterns." },
-  { icon: Target, title: "AI & Agentic Systems Leadership", description: "Advanced enterprise-safe AI and agentic workflow strategies with a focus on governance, risk, and real-world adoption—not demos in isolation." },
-  { icon: GraduationCap, title: "Advisor & Operator", description: "Partner with founders and leadership teams to operationalize innovation, sharpen positioning, and accelerate GTM execution through Cogent West." },
+  { icon: Heart, title: "Husband & Father", description: "I'm grounded in long-term thinking, responsibility, and building systems that last—at home and in business." },
+  { icon: Building2, title: "Enterprise Category Creation at Scale", description: "Helped scale ServiceNow from early IT ticketing into a global ITSM and Enterprise Service Management leader—contributing to a $1B+ category." },
+  { icon: Lightbulb, title: "Product Incubation & 0→1 Leadership", description: "Founded and led incubation initiatives (NowX), launching 20+ net-new products and AI capabilities—bridging experimentation with enterprise-grade execution." },
+  { icon: Users, title: "Bridging Product, GTM & Enterprise Reality", description: "Known for translating deep technical capability into executive-ready narratives, adoption playbooks, and scalable deployment patterns." },
+  { icon: Target, title: "AI & Agentic Systems Leadership", description: "Advanced enterprise-safe AI and agentic workflow strategies focused on governance, risk, and real-world adoption—not demos in isolation." },
+  { icon: GraduationCap, title: "Advisor & Operator", description: "Through Cogent West, partner with founders and leadership teams to operationalize innovation, sharpen positioning, and accelerate GTM execution." },
 ];
 
 const principles = [
-  { title: "Assume Positive Intent", description: "I default to trust and curiosity. Most friction disappears when people feel heard, respected, and understood.", icon: Heart },
-  { title: "Depth Creates Leverage", description: "Understanding systems at the implementation level leads to better decisions, stronger credibility, and faster execution.", icon: Lightbulb },
-  { title: "Outcomes Over Titles", description: "Leadership is measured by the success of teams and customers—not hierarchy. My focus is enablement, alignment, and accountability.", icon: Users },
-  { title: "Consistency Compounds", description: "Sustained effort and learning through setbacks outperform raw talent. Small gains, repeated, create real advantage.", icon: Target },
-  { title: "Shorten the Loop", description: "Candid feedback applied quickly accelerates growth—for individuals, teams, and products.", icon: MessageSquare },
-  { title: "Bias Toward Action", description: "Clear strategy matters, but progress requires motion. Focused teams that execute quickly—especially with AI-native leverage—win.", icon: Rocket },
+  { title: "Assume Positive Intent", description: "I default to trust and curiosity. Customers move faster when teams feel heard, respected, and aligned.", icon: Heart },
+  { title: "Depth Creates Leverage", description: "I go deep enough to earn credibility with engineering and implementation teams—then translate that into clear decisions and direction.", icon: Lightbulb },
+  { title: "Outcomes Over Titles", description: "I optimize for results and customer impact. Alignment, enablement, and accountability beat hierarchy every time.", icon: Users },
+  { title: "Consistency Compounds", description: "Big outcomes come from small, sustained gains—repeated learning cycles, steady execution, and operational discipline.", icon: Target },
+  { title: "Shorten the Loop", description: "Fast feedback and fast iteration accelerate product quality, sales confidence, and customer adoption.", icon: MessageSquare },
+  { title: "Bias Toward Action", description: "Strategy matters, but outcomes require motion. Focused teams executing with AI-native leverage win.", icon: Rocket },
 ];
 
 const experiences = [
@@ -43,11 +43,11 @@ const experiences = [
     period: "2023 - Present",
     icon: Lightbulb,
     responsibilities: [
-      "Partner with founders and executive teams to refactor legacy platforms and workflows into modern, AI-native applications—bridging strategy, architecture, and execution.",
-      "Advise on enterprise AI strategy, GTM positioning, and operating models, helping companies move from experimental AI to trusted, production-ready systems.",
-      "Design enterprise narratives, value-based demos, and adoption frameworks that accelerate customer confidence, shorten sales cycles, and drive real usage.",
-      "Work hands-on with product, engineering, and sales engineering teams to translate customer workflows into scalable platform capabilities.",
-      "Support early- and growth-stage companies in turning innovation into durable market traction, repeatable sales motions, and long-term platform value.",
+      "Partner with founders and enterprise leadership teams to turn AI ambition into production-ready platforms that customers trust, adopt, and expand.",
+      "Refactor legacy workflows and systems into modern, AI-native applications—bridging strategy, architecture, and hands-on execution.",
+      "Design enterprise-ready AI and agentic operating models with governance, risk controls, and adoption patterns built in from day one.",
+      "Build executive narratives, value-based demos, and adoption playbooks that shorten sales cycles and increase customer confidence.",
+      "Work across product, engineering, and GTM to translate real customer workflows into scalable platform capabilities and repeatable motions.",
     ],
   },
   {
@@ -58,11 +58,11 @@ const experiences = [
     period: "2025 - 2026",
     icon: Rocket,
     responsibilities: [
-      "Lead platform strategy and execution for an AI-native go-to-market platform that infuses AI across the entire GTM engine — unifying data, codifying best practices, and eliminating point-solution sprawl.",
-      "Build and lead product, sales engineering, and customer-facing technical teams, ensuring platform design and development remain grounded in real enterprise sales motions and customer workflows.",
-      "Partner deeply with Sales and Sales Engineering to enable value-based selling, executive POVs, and solution architectures that connect agentic workflows to measurable revenue and productivity outcomes.",
-      "Maintain tight feedback loops with enterprise customers, translating adoption signals and GTM friction into product roadmap priorities and platform capabilities.",
-      "Establish scalable platform and post-sales playbooks that balance speed, trust, governance, and expansion as customers operationalize AI across their GTM organizations.",
+      "Led platform strategy and execution for an AI-native go-to-market platform that infuses AI across the GTM engine—unifying data, codifying best practices, and reducing point-solution sprawl.",
+      "Built and led customer-facing technical teams to ensure platform design stayed grounded in enterprise buying, security expectations, and real GTM workflows.",
+      "Partnered with Sales and SE to enable value-based selling, executive POVs, and architectures that connect agentic workflows to measurable revenue outcomes.",
+      "Maintained tight feedback loops with enterprise customers—translating adoption friction into roadmap priorities and platform capabilities.",
+      "Established scalable platform and post-sales playbooks balancing speed, trust, governance, and expansion as customers operationalized AI.",
     ],
   },
   {
@@ -73,11 +73,11 @@ const experiences = [
     period: "2014 - 2025",
     icon: Building2,
     responsibilities: [
-      "Helped scale ServiceNow from its ITSM foundation into a global, multi-workflow enterprise platform exceeding $1B+ in annual revenue, expanding beyond IT into employee, risk, finance, and operational domains.",
-      "Founded and led NowX, ServiceNow's product incubation engine, launching 20+ net-new products across enterprise workflows, platform services, and AI-driven capabilities.",
-      "Advanced ServiceNow's enterprise AI and agentic strategy, including early implementation of AI governance, safety frameworks, and trust controls required for regulated, large-scale adoption.",
-      "Worked at the intersection of Product, Sales Engineering, GTM, and Executive Leadership to ensure innovation translated into customer value, adoption velocity, and revenue impact.",
-      "Established repeatable incubation and launch models that aligned product design, sales enablement, and customer success, accelerating time-to-value for new platform capabilities.",
+      "Helped scale ServiceNow from ITSM into a global multi-workflow enterprise platform, expanding into employee, risk, finance, and operational domains.",
+      "Founded and led NowX, ServiceNow's product incubation engine—launching 20+ net-new products across enterprise workflows, platform services, and AI-driven capabilities.",
+      "Advanced enterprise AI and agentic strategies, including early governance, safety frameworks, and trust controls required for regulated adoption.",
+      "Operated at the intersection of Product, Sales Engineering, GTM, and Executive Leadership—ensuring innovation translated into customer value, adoption velocity, and revenue impact.",
+      "Built repeatable incubation and launch models aligning product, enablement, and customer success—accelerating time-to-value for new platform capabilities.",
     ],
   },
   {
@@ -88,11 +88,11 @@ const experiences = [
     period: "2012 - 2014",
     icon: Building2,
     responsibilities: [
-      "Built and scaled ServiceNow's Western Solution Consulting organization, establishing the company's foundational enterprise pre-sales and customer engagement motion during its rapid growth phase.",
-      "Recruited, developed, and led high-performing teams of Enterprise Solution Consultants and Managers, directly supporting and exceeding annual enterprise sales targets.",
-      "Defined and executed value-based selling strategies, including tailored demos, proof-of-value engagements, and executive-level platform narratives aligned to customer business outcomes.",
-      "Partnered deeply with Sales, Product Management, and Executive Leadership to shape deal strategy, influence roadmap priorities, and accelerate enterprise adoption.",
-      "Played a key role in landing and expanding strategic enterprise accounts, helping position ServiceNow as a trusted platform partner rather than a point-solution vendor.",
+      "Built and scaled the Western Solution Consulting organization, establishing foundational enterprise pre-sales and customer engagement motions during rapid growth.",
+      "Recruited and developed high-performing teams supporting and exceeding annual enterprise sales targets.",
+      "Defined value-based selling strategies, including tailored demos, proof-of-value engagements, and executive narratives tied to customer outcomes.",
+      "Partnered with Sales, Product, and Exec Leadership to shape deal strategy, influence roadmap priorities, and accelerate enterprise adoption.",
+      "Helped land and expand strategic enterprise accounts—positioning ServiceNow as a platform partner, not a point-solution vendor.",
     ],
   },
   {
@@ -103,36 +103,36 @@ const experiences = [
     period: "2006 - 2012",
     icon: Building2,
     responsibilities: [
-      "Early leader during ServiceNow's hyper-growth phase, partnering with enterprise customers to translate complex requirements into scalable platform solutions.",
-      "Closed 250+ enterprise logos and $250M+ in contract value, supporting global accounts across multiple industries.",
-      "Led strategic wins with companies including Disney, Apple, Microsoft, Amazon, GE, and Intel, positioning ServiceNow as a long-term platform partner.",
+      "Partnered with enterprise customers to translate complex requirements into scalable platform solutions during ServiceNow's hyper-growth phase.",
+      "Closed 250+ enterprise logos and $250M+ in contract value across industries and global accounts.",
+      "Led strategic wins with companies including Disney, Apple, Microsoft, Amazon, GE, and Intel—positioning ServiceNow as a long-term platform partner.",
       "Improved strategic win rates by 35% through custom demos, proof-of-concept engagements, and value-driven solution design.",
-      "Mentored and developed 50+ solution consultants, helping scale the organization during rapid growth.",
-      "Established solution design standards that reduced customer time-to-value by 40% and improved implementation consistency.",
+      "Mentored and developed 50+ solution consultants—helping scale the organization during rapid growth.",
+      "Established solution design standards that reduced time-to-value by 40% and improved implementation consistency.",
     ],
   },
 ];
 
 const skills = [
   {
-    category: "Enterprise GTM & Leadership",
-    items: ["Value-Based Selling & Executive POVs", "Enterprise Sales Engineering", "Customer Adoption & Expansion", "Stakeholder Alignment & Exec Communication", "Team Leadership & Coaching"],
+    category: "Enterprise Consulting & GTM Execution",
+    items: ["Enterprise GTM Strategy", "Value-Based Selling", "Executive POVs", "Enterprise Sales Engineering", "Customer Adoption & Expansion", "Stakeholder Alignment", "Team Leadership & Coaching"],
   },
   {
-    category: "AI & Platform Strategy",
-    items: ["Agentic Workflow Design", "Enterprise AI Governance & Safety", "LLM Strategy & Integration", "AI-Native Product Design"],
+    category: "AI & Agentic Systems",
+    items: ["Agentic Workflow Design", "Enterprise AI Governance & Safety", "LLM Strategy & Integration", "AI-Native Product Design", "Trust, Risk & Controls"],
   },
   {
-    category: "Product & Systems Thinking",
-    items: ["Product Incubation (0→1 → Scale)", "Platform Strategy & Architecture", "Change Management & Adoption Models", "Cross-Functional Operating Systems"],
+    category: "Product, Platform & Operating Systems",
+    items: ["Product Incubation (0→1 → Scale)", "Platform Strategy & Architecture", "Change Management", "Adoption Models", "Cross-Functional Operating Systems"],
   },
 ];
 
 const projects = [
-  { title: "Enterprise Vibe — GTM Narrative & Demo System", tags: ["GTM Strategy", "AI Workflows", "Enterprise Positioning"], description: "Developed a narrative and demo framework showing how vibe-coding plus reusable templates can outperform legacy enterprise stacks with faster time-to-value." },
-  { title: "AI-Native ITSM & Workflow Prototypes", tags: ["Agentic Systems", "Governance", "Change Management"], description: "Designed enterprise-grade agentic workflows aligned to real change control, risk, and compliance needs." },
-  { title: "Workflow & Agent Builder Experiments", tags: ["Internal Tools", "AI Automation", "Rapid Prototyping"], description: "Built multiple prototypes across IT, marketing, and reporting to explore repeatable agent-driven workflows." },
-  { title: "Enterprise POVs & Executive Demos", tags: ["Sales Enablement", "Strategic Storytelling"], description: "Created executive-ready demos and POVs that translate complex platforms into clear business impact narratives." },
+  { title: "Enterprise Vibe — GTM Narrative & Demo System", tags: ["GTM Strategy", "AI Workflows", "Enterprise Positioning"], description: "Built a narrative + demo framework showing how reusable templates and AI-native workflows can outperform legacy stacks with dramatically faster time-to-value." },
+  { title: "AI-Native ITSM & Workflow Prototypes", tags: ["Agentic Systems", "Governance", "Change Management"], description: "Designed enterprise-grade agentic workflows aligned to real change control, risk, and compliance requirements—built to be deployed, not just demonstrated." },
+  { title: "Workflow & Agent Builder Experiments", tags: ["Internal Tools", "AI Automation", "Rapid Prototyping"], description: "Built multiple prototypes across IT, marketing, and reporting to validate repeatable, agent-driven workflow patterns." },
+  { title: "Enterprise POVs & Executive Demos", tags: ["Sales Enablement", "Strategic Storytelling"], description: "Created executive-ready demos and POVs translating complex platforms into clear business outcomes—accelerating confidence and shortening sales cycles." },
 ];
 
 const companyLogos = [
@@ -307,16 +307,16 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="order-2 lg:order-1">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-[1.1] animate-fade-in-up opacity-0 animation-delay-100" data-testid="text-hero-title">
-                Technical GTM Leader at the{" "}
-                <span className="text-primary">Forefront of AI</span>
+                Technical GTM Consultant for{" "}
+                <span className="text-primary">Enterprise AI That Ships, Sells, and Scales</span>
               </h1>
               
               <p className="text-xl md:text-2xl text-foreground mb-6 font-semibold animate-fade-in-up opacity-0 animation-delay-200">
-                The technical barrier to building enterprise software is collapsing.
+                Enterprise teams are under pressure to "do AI."
               </p>
               
               <p className="text-base md:text-lg text-muted-foreground mb-10 leading-relaxed max-w-xl animate-fade-in-up opacity-0 animation-delay-300">
-                I operate across <strong className="text-foreground">product, engineering, and go-to-market</strong> with a builder's mindset, bringing hands-on leadership to enterprise GTM execution. I help organizations translate emerging technologies—especially <strong className="text-foreground">AI and agentic systems</strong>—into trusted, scalable, revenue-driving platforms. With <strong className="text-foreground">25+ years</strong> building, scaling, and selling enterprise software, I specialize in turning complex systems into clear narratives, repeatable motions, and measurable outcomes—from early incubation to <strong className="text-foreground">$1B+ product categories</strong>.
+                But most efforts stall in pilots, disconnected demos, or features customers don't trust or adopt. I work with founders and enterprise leaders to turn emerging tech—especially <strong className="text-foreground">AI and agentic systems</strong>—into <strong className="text-foreground">revenue-driving, production-ready platforms</strong>. I operate across <strong className="text-foreground">product, engineering, and go-to-market</strong> with a builder's mindset: diagnosing what's blocking adoption, aligning teams, and delivering clear narratives and repeatable execution. With <strong className="text-foreground">25+ years</strong> building, scaling, and selling enterprise software, I specialize in helping organizations translate complex systems into <strong className="text-foreground">clear value stories</strong>, design <strong className="text-foreground">trusted AI workflows</strong> with governance baked in, build <strong className="text-foreground">repeatable GTM motions</strong>, and accelerate adoption from first deployment to durable expansion.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 animation-delay-400">
@@ -387,7 +387,7 @@ export default function Home() {
               Career & Personal Milestones
             </h2>
             <p className="text-muted-foreground text-lg">
-              Key moments that reflect both professional growth and personal values.
+              Key moments that reflect both professional growth and how I show up for customers.
             </p>
           </div>
           
@@ -417,6 +417,9 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-principles-title">
               How I Operate
             </h2>
+            <p className="text-muted-foreground text-lg mb-4">
+              What clients can expect when we work together.
+            </p>
             <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
           </div>
           
@@ -603,7 +606,7 @@ export default function Home() {
               Let's Work Together
             </h2>
             <p className="text-base text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              Ready to explore how AI-native systems, strong GTM execution, and trusted adoption frameworks can drive real enterprise outcomes? Let's connect.
+              If you're serious about moving AI from pilots to production—and aligning product, engineering, and GTM so it ships, sells, and scales—let's connect. I typically start with a working session to understand your goals, friction points, and path to measurable outcomes.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

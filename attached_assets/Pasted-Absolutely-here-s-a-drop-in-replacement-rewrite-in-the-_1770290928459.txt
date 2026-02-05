@@ -1,0 +1,247 @@
+Absolutely — here’s a **drop-in replacement** rewrite in the **same overall format/sections** you sent, but repositioned as a **customer-first enterprise consultant**. You can paste this straight into Replit as the new site copy.
+
+---
+
+## Technical GTM Consultant for Enterprise AI That Ships, Sells, and Scales
+
+**Enterprise teams are under pressure to “do AI.”**
+But most efforts stall in pilots, disconnected demos, or features customers don’t trust or adopt.
+
+I work with founders and enterprise leaders to turn emerging tech—especially **AI and agentic systems**—into **revenue-driving, production-ready platforms**. I operate across **product, engineering, and go-to-market** with a builder’s mindset: diagnosing what’s blocking adoption, aligning teams, and delivering clear narratives and repeatable execution.
+
+With **25+ years** building, scaling, and selling enterprise software, I specialize in helping organizations:
+
+* translate complex systems into **clear value stories**
+* design **trusted** AI workflows with governance baked in
+* build **repeatable GTM motions**
+* accelerate adoption from first deployment to durable expansion
+
+**LinkedIn Profile**
+**Email Me**
+~7 min read (230 wpm)
+1,350 words
+**Get 60-Sec Summary**
+
+---
+
+## Eric Schroeder
+
+---
+
+## Career & Personal Milestones
+
+Key moments that reflect both professional growth and how I show up for customers.
+
+### Husband & Father
+
+I’m grounded in long-term thinking, responsibility, and building systems that last—at home and in business.
+
+### Enterprise Category Creation at Scale
+
+Helped scale ServiceNow from early IT ticketing into a global ITSM and Enterprise Service Management leader—contributing to a $1B+ category.
+
+### Product Incubation & 0→1 Leadership
+
+Founded and led incubation initiatives (NowX), launching 20+ net-new products and AI capabilities—bridging experimentation with enterprise-grade execution.
+
+### Bridging Product, GTM & Enterprise Reality
+
+Known for translating deep technical capability into executive-ready narratives, adoption playbooks, and scalable deployment patterns.
+
+### AI & Agentic Systems Leadership
+
+Advanced enterprise-safe AI and agentic workflow strategies focused on governance, risk, and real-world adoption—not demos in isolation.
+
+### Advisor & Operator
+
+Through Cogent West, partner with founders and leadership teams to operationalize innovation, sharpen positioning, and accelerate GTM execution.
+
+---
+
+## How I Operate
+
+What clients can expect when we work together.
+
+### Assume Positive Intent
+
+I default to trust and curiosity. Customers move faster when teams feel heard, respected, and aligned.
+
+### Depth Creates Leverage
+
+I go deep enough to earn credibility with engineering and implementation teams—then translate that into clear decisions and direction.
+
+### Outcomes Over Titles
+
+I optimize for results and customer impact. Alignment, enablement, and accountability beat hierarchy every time.
+
+### Consistency Compounds
+
+Big outcomes come from small, sustained gains—repeated learning cycles, steady execution, and operational discipline.
+
+### Shorten the Loop
+
+Fast feedback and fast iteration accelerate product quality, sales confidence, and customer adoption.
+
+### Bias Toward Action
+
+Strategy matters, but outcomes require motion. Focused teams executing with AI-native leverage win.
+
+---
+
+## Professional Experience
+
+---
+
+## Trusted by Leading Enterprise Organizations
+
+Netflix • Apple • NVIDIA • Disney • Intel • American Express • Boeing • Microsoft • Amazon • Google • Costco • Target • Morgan Stanley • AIG • TD Bank • Expedia
+
+---
+
+root@eric:~/experience/cogentwest $ _
+
+## Founder & Principal — Cogent West
+
+**2023 - Present**
+
+> Partner with founders and enterprise leadership teams to turn AI ambition into production-ready platforms that customers trust, adopt, and expand.
+>
+> Refactor legacy workflows and systems into modern, AI-native applications—bridging strategy, architecture, and hands-on execution.
+>
+> Design enterprise-ready AI and agentic operating models with governance, risk controls, and adoption patterns built in from day one.
+>
+> Build executive narratives, value-based demos, and adoption playbooks that shorten sales cycles and increase customer confidence.
+>
+> Work across product, engineering, and GTM to translate real customer workflows into scalable platform capabilities and repeatable motions.
+
+---
+
+root@eric:~/experience/copyai $ _
+
+## VP, Platform (Sales Engineering & Customer Engagement) — Copy.ai
+
+**2025 - 2026**
+
+> Led platform strategy and execution for an AI-native go-to-market platform that infuses AI across the GTM engine—unifying data, codifying best practices, and reducing point-solution sprawl.
+>
+> Built and led customer-facing technical teams to ensure platform design stayed grounded in enterprise buying, security expectations, and real GTM workflows.
+>
+> Partnered with Sales and SE to enable value-based selling, executive POVs, and architectures that connect agentic workflows to measurable revenue outcomes.
+>
+> Maintained tight feedback loops with enterprise customers—translating adoption friction into roadmap priorities and platform capabilities.
+>
+> Established scalable platform and post-sales playbooks balancing speed, trust, governance, and expansion as customers operationalized AI.
+
+---
+
+root@eric:~/experience/servicenow $ _
+
+## VP of Product Management & AI Agent Safety (NowX) — ServiceNow
+
+**2014 - 2025**
+
+> Helped scale ServiceNow from ITSM into a global multi-workflow enterprise platform, expanding into employee, risk, finance, and operational domains.
+>
+> Founded and led NowX, ServiceNow’s product incubation engine—launching 20+ net-new products across enterprise workflows, platform services, and AI-driven capabilities.
+>
+> Advanced enterprise AI and agentic strategies, including early governance, safety frameworks, and trust controls required for regulated adoption.
+>
+> Operated at the intersection of Product, Sales Engineering, GTM, and Executive Leadership—ensuring innovation translated into customer value, adoption velocity, and revenue impact.
+>
+> Built repeatable incubation and launch models aligning product, enablement, and customer success—accelerating time-to-value for new platform capabilities.
+
+---
+
+root@eric:~/experience/servicenow-director $ _
+
+## Director, Solution Consulting — West — ServiceNow
+
+**2012 - 2014**
+
+> Built and scaled the Western Solution Consulting organization, establishing foundational enterprise pre-sales and customer engagement motions during rapid growth.
+>
+> Recruited and developed high-performing teams supporting and exceeding annual enterprise sales targets.
+>
+> Defined value-based selling strategies, including tailored demos, proof-of-value engagements, and executive narratives tied to customer outcomes.
+>
+> Partnered with Sales, Product, and Exec Leadership to shape deal strategy, influence roadmap priorities, and accelerate enterprise adoption.
+>
+> Helped land and expand strategic enterprise accounts—positioning ServiceNow as a platform partner, not a point-solution vendor.
+
+---
+
+root@eric:~/experience/servicenow-architect $ _
+
+## Solution Architect & Senior Roles — ServiceNow
+
+**2006 - 2012**
+
+> Partnered with enterprise customers to translate complex requirements into scalable platform solutions during ServiceNow’s hyper-growth phase.
+>
+> Closed 250+ enterprise logos and $250M+ in contract value across industries and global accounts.
+>
+> Led strategic wins with companies including Disney, Apple, Microsoft, Amazon, GE, and Intel—positioning ServiceNow as a long-term platform partner.
+>
+> Improved strategic win rates by 35% through custom demos, proof-of-concept engagements, and value-driven solution design.
+>
+> Mentored and developed 50+ solution consultants—helping scale the organization during rapid growth.
+>
+> Established solution design standards that reduced time-to-value by 40% and improved implementation consistency.
+
+---
+
+## Skills & Expertise
+
+### Enterprise Consulting & GTM Execution
+
+Enterprise GTM Strategy • Value-Based Selling • Executive POVs • Enterprise Sales Engineering • Customer Adoption & Expansion • Stakeholder Alignment • Team Leadership & Coaching
+
+### AI & Agentic Systems
+
+Agentic Workflow Design • Enterprise AI Governance & Safety • LLM Strategy & Integration • AI-Native Product Design • Trust, Risk & Controls
+
+### Product, Platform & Operating Systems
+
+Product Incubation (0→1 → Scale) • Platform Strategy & Architecture • Change Management • Adoption Models • Cross-Functional Operating Systems
+
+---
+
+## What I’ve Delivered
+
+### Enterprise Vibe — GTM Narrative & Demo System
+
+**GTM Strategy • AI Workflows • Enterprise Positioning**
+Built a narrative + demo framework showing how reusable templates and AI-native workflows can outperform legacy stacks with dramatically faster time-to-value.
+**View Details**
+
+### AI-Native ITSM & Workflow Prototypes
+
+**Agentic Systems • Governance • Change Management**
+Designed enterprise-grade agentic workflows aligned to real change control, risk, and compliance requirements—built to be deployed, not just demonstrated.
+**View Details**
+
+### Workflow & Agent Builder Experiments
+
+**Internal Tools • AI Automation • Rapid Prototyping**
+Built multiple prototypes across IT, marketing, and reporting to validate repeatable, agent-driven workflow patterns.
+**View Details**
+
+### Enterprise POVs & Executive Demos
+
+**Sales Enablement • Strategic Storytelling**
+Created executive-ready demos and POVs translating complex platforms into clear business outcomes—accelerating confidence and shortening sales cycles.
+**View Details**
+
+---
+
+## Let’s Work Together
+
+If you’re serious about moving AI from pilots to production—and aligning product, engineering, and GTM so it **ships, sells, and scales**—let’s connect.
+
+I typically start with a working session to understand your goals, friction points, and path to measurable outcomes.
+
+**Let’s connect.**
+
+---
+
+If you want, I can also produce a **60-second summary block** that matches this new positioning (so that button actually delivers something punchy).
