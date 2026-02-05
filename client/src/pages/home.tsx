@@ -230,7 +230,7 @@ export default function Home() {
               </TooltipContent>
             </Tooltip>
             <a
-              href="https://www.linkedin.com/in/eric-schroeder-8a28933a6/"
+              href="https://www.linkedin.com/in/eschroeder/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -321,7 +321,7 @@ export default function Home() {
               
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 animation-delay-400">
                 <Button asChild size="lg" className="rounded-full px-8 border border-red-700" data-testid="link-linkedin">
-                  <a href="https://www.linkedin.com/in/eric-schroeder-8a28933a6/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/eschroeder/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-2 h-5 w-5" />
                     LinkedIn Profile
                   </a>
@@ -617,7 +617,7 @@ export default function Home() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-red-700" data-testid="button-contact-linkedin">
-                <a href="https://www.linkedin.com/in/eric-schroeder-8a28933a6/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/eschroeder/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-5 w-5" />
                   linkedin.com/in/eric-schroeder
                 </a>
